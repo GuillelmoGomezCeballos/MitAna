@@ -1,6 +1,6 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIafsdIcerndOchdIworkdIcdIceballosdIcodedICMSSW_8_0_24_patch1dItmpdIslc6_amd64_gcc530dIMitAnaDataCont_LinkDefDict
+#define R__DICTIONARY_FILENAME dIafsdIcerndOchdIuserdIcdIceballosdIreleasesdICMSSW_8_0_26_patch1dItmpdIslc6_amd64_gcc530dIMitAnaDataCont_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
@@ -4786,10 +4786,10 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/afs/cern.ch/work/c/ceballos/code/CMSSW_8_0_24_patch1/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/external/boost/1.57.0-giojec2/include",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/include",
-"/afs/cern.ch/work/c/ceballos/code/CMSSW_8_0_24_patch1/src/",
+"/afs/cern.ch/user/c/ceballos/releases/CMSSW_8_0_26_patch1/src",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/external/boost/1.57.0-ikhhed2/include",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed6/include",
+"/afs/cern.ch/user/c/ceballos/releases/CMSSW_8_0_26_patch1/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
