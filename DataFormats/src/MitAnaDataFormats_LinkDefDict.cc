@@ -1,12 +1,11 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIafsdIcerndOchdIuserdIcdIceballosdIreleasesdICMSSW_8_0_26_patch1dItmpdIslc6_amd64_gcc530dIMitAnaDataFormats_LinkDefDict
+#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI048dICMSSW_9_2_12dItmpdIslc6_amd64_gcc530dIMitAnaDataFormats_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <string.h>
 #include <assert.h>
 #define G__DICTIONARY
@@ -742,9 +741,9 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/afs/cern.ch/user/c/ceballos/releases/CMSSW_8_0_26_patch1/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed6/include",
-"/afs/cern.ch/user/c/ceballos/releases/CMSSW_8_0_26_patch1/src/",
+"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.08.07/include",
+"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
@@ -753,45 +752,45 @@ namespace {
 #pragma clang diagnostic ignored "-Wignored-attributes"
 #pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
 extern int __Cling_Autoloading_Map;
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Histogram ratio class in 1D)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  Hist1DRat;}
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Histogram for storage of seperate asymmetric errors)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  TH2DAsymErr;}
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Histogram for storage of seperate asymmetric errors)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  TH3DAsymErr;}
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Implementation of our own ThreeVector32)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  Vect3;}
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Implementation of our own ThreeVectorC32)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  Vect3C;}
-namespace mithep{class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  Vect4M;}
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Histogram ratio class in 1D)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Hist1DRat.h")))  Hist1DRat;}
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Histogram for storage of seperate asymmetric errors)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/TH2DAsymErr.h")))  TH2DAsymErr;}
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Histogram for storage of seperate asymmetric errors)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/TH3DAsymErr.h")))  TH3DAsymErr;}
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Implementation of our own ThreeVector32)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Vect3.h")))  Vect3;}
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Implementation of our own ThreeVectorC32)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Vect3C.h")))  Vect3C;}
+namespace mithep{class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Vect4M.h")))  Vect4M;}
 typedef double Double_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace ROOT{namespace Math{template <class ScalarType = double> class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  PxPyPzE4D;
+namespace ROOT{namespace Math{template <class ScalarType = double> class __attribute__((annotate("$clingAutoload$Math/GenVector/PxPyPzE4D.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  PxPyPzE4D;
 }}
-namespace ROOT{namespace Math{template <class CoordSystem> class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  LorentzVector;
+namespace ROOT{namespace Math{template <class CoordSystem> class __attribute__((annotate("$clingAutoload$Math/Vector4Dfwd.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  LorentzVector;
 }}
-namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<Double_t> > FourVector __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace ROOT{namespace Math{template <class ScalarType> class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  PtEtaPhiM4D;
+namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<Double_t> > FourVector __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace ROOT{namespace Math{template <class ScalarType> class __attribute__((annotate("$clingAutoload$Math/GenVector/PtEtaPhiM4D.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  PtEtaPhiM4D;
 }}
-namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<Double_t> > FourVectorM __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace ROOT{namespace Math{template <class ScalarType> class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  PtEtaPhiE4D;
+namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<Double_t> > FourVectorM __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace ROOT{namespace Math{template <class ScalarType> class __attribute__((annotate("$clingAutoload$Math/GenVector/PtEtaPhiE4D.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  PtEtaPhiE4D;
 }}
-namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiE4D<Double_t> > FourVectorE __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace ROOT{namespace Math{template <class T = double> class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  Cartesian3D;
+namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiE4D<Double_t> > FourVectorE __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace ROOT{namespace Math{template <class T = double> class __attribute__((annotate("$clingAutoload$Math/GenVector/Cartesian3D.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  Cartesian3D;
 }}
-namespace ROOT{namespace Math{class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  DefaultCoordinateSystemTag;}}
-namespace ROOT{namespace Math{template <class CoordSystem, class Tag = ROOT::Math::DefaultCoordinateSystemTag> class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  DisplacementVector3D;
+namespace ROOT{namespace Math{class __attribute__((annotate("$clingAutoload$Math/GenVector/CoordinateSystemTags.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  DefaultCoordinateSystemTag;}}
+namespace ROOT{namespace Math{template <class CoordSystem, class Tag = ROOT::Math::DefaultCoordinateSystemTag> class __attribute__((annotate("$clingAutoload$Math/GenVector/DisplacementVector3D.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  DisplacementVector3D;
 }}
-namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::Cartesian3D<Double_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVector __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace ROOT{namespace Math{template <class T> class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  CylindricalEta3D;
+namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::Cartesian3D<Double_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVector __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace ROOT{namespace Math{template <class T> class __attribute__((annotate("$clingAutoload$Math/GenVector/CylindricalEta3D.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  CylindricalEta3D;
 }}
-namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::CylindricalEta3D<Double_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVectorC __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace ROOT{namespace Math{template <class T, unsigned int D> class __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h")))  MatRepSym;
+namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::CylindricalEta3D<Double_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVectorC __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace ROOT{namespace Math{template <class T, unsigned int D> class __attribute__((annotate("$clingAutoload$Math/HelperOps.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h")))  MatRepSym;
 }}
 typedef double Double32_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<Double32_t> > FourVector32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<Double32_t> > FourVectorM32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiE4D<Double32_t> > FourVectorE32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::Cartesian3D<Double32_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVector32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
-namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::CylindricalEta3D<Double32_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVectorC32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
+namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<Double32_t> > FourVector32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<Double32_t> > FourVectorM32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiE4D<Double32_t> > FourVectorE32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::Cartesian3D<Double32_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVector32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
+namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::CylindricalEta3D<Double32_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVectorC32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
 typedef unsigned int UInt_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace std{template <class _T1, class _T2> struct __attribute__((annotate("$clingAutoload$string")))  pair;
+namespace std{template <class _T1, class _T2> struct __attribute__((annotate("$clingAutoload$bits/stl_pair.h")))  __attribute__((annotate("$clingAutoload$string")))  pair;
 }
-namespace mithep{typedef std::pair<UInt_t, UInt_t> UIntPair __attribute__((annotate("$clingAutoload$MitAna/DataFormats/dict/MitAnaDataFormatsLinkDef.h"))) ;}
+namespace mithep{typedef std::pair<UInt_t, UInt_t> UIntPair __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
 )DICTFWDDCLS";
     static const char* payloadCode = R"DICTPAYLOAD(
 #line 1 "MitAnaDataFormats_LinkDefDict dictionary payload"

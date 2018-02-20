@@ -17,6 +17,7 @@
 
 #include <TObject.h>
 #include <TClass.h>
+#include "TBuffer.h"
 #include "MitAna/DataCont/interface/Collection.h"
 
 namespace mithep 

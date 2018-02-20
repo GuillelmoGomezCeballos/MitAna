@@ -1,12 +1,11 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIafsdIcerndOchdIuserdIcdIceballosdIreleasesdICMSSW_8_0_26_patch1dItmpdIslc6_amd64_gcc530dIMitAnaDataCont_LinkDefDict
+#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI048dICMSSW_9_2_12dItmpdIslc6_amd64_gcc530dIMitAnaDataCont_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <string.h>
 #include <assert.h>
 #define G__DICTIONARY
@@ -81,6 +80,49 @@ namespace mithep {
 }
 
 namespace ROOT {
+   static TClass *pairlEunsignedsPintcOunsignedsPintgR_Dictionary();
+   static void pairlEunsignedsPintcOunsignedsPintgR_TClassManip(TClass*);
+   static void *new_pairlEunsignedsPintcOunsignedsPintgR(void *p = 0);
+   static void *newArray_pairlEunsignedsPintcOunsignedsPintgR(Long_t size, void *p);
+   static void delete_pairlEunsignedsPintcOunsignedsPintgR(void *p);
+   static void deleteArray_pairlEunsignedsPintcOunsignedsPintgR(void *p);
+   static void destruct_pairlEunsignedsPintcOunsignedsPintgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const pair<unsigned int,unsigned int>*)
+   {
+      pair<unsigned int,unsigned int> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(pair<unsigned int,unsigned int>));
+      static ::ROOT::TGenericClassInfo 
+         instance("pair<unsigned int,unsigned int>", "string", 96,
+                  typeid(pair<unsigned int,unsigned int>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &pairlEunsignedsPintcOunsignedsPintgR_Dictionary, isa_proxy, 4,
+                  sizeof(pair<unsigned int,unsigned int>) );
+      instance.SetNew(&new_pairlEunsignedsPintcOunsignedsPintgR);
+      instance.SetNewArray(&newArray_pairlEunsignedsPintcOunsignedsPintgR);
+      instance.SetDelete(&delete_pairlEunsignedsPintcOunsignedsPintgR);
+      instance.SetDeleteArray(&deleteArray_pairlEunsignedsPintcOunsignedsPintgR);
+      instance.SetDestructor(&destruct_pairlEunsignedsPintcOunsignedsPintgR);
+
+      ::ROOT::AddClassAlternate("pair<unsigned int,unsigned int>","pair<UInt_t,UInt_t>");
+      return &instance;
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const pair<unsigned int,unsigned int>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *pairlEunsignedsPintcOunsignedsPintgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const pair<unsigned int,unsigned int>*)0x0)->GetClass();
+      pairlEunsignedsPintcOunsignedsPintgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void pairlEunsignedsPintcOunsignedsPintgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
    static void delete_mithepcLcLBaseCollection(void *p);
    static void deleteArray_mithepcLcLBaseCollection(void *p);
    static void destruct_mithepcLcLBaseCollection(void *p);
@@ -106,6 +148,321 @@ namespace ROOT {
    }
    // Static variable to force the class initialization
    static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BaseCollection*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *mithepcLcLBitMasklE3gR_Dictionary();
+   static void mithepcLcLBitMasklE3gR_TClassManip(TClass*);
+   static void *new_mithepcLcLBitMasklE3gR(void *p = 0);
+   static void *newArray_mithepcLcLBitMasklE3gR(Long_t size, void *p);
+   static void delete_mithepcLcLBitMasklE3gR(void *p);
+   static void deleteArray_mithepcLcLBitMasklE3gR(void *p);
+   static void destruct_mithepcLcLBitMasklE3gR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<3>*)
+   {
+      ::mithep::BitMask<3> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<3> >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::BitMask<3>", ::mithep::BitMask<3>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
+                  typeid(::mithep::BitMask<3>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLBitMasklE3gR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::BitMask<3>) );
+      instance.SetNew(&new_mithepcLcLBitMasklE3gR);
+      instance.SetNewArray(&newArray_mithepcLcLBitMasklE3gR);
+      instance.SetDelete(&delete_mithepcLcLBitMasklE3gR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE3gR);
+      instance.SetDestructor(&destruct_mithepcLcLBitMasklE3gR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<3>*)
+   {
+      return GenerateInitInstanceLocal((::mithep::BitMask<3>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<3>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *mithepcLcLBitMasklE3gR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<3>*)0x0)->GetClass();
+      mithepcLcLBitMasklE3gR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void mithepcLcLBitMasklE3gR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *mithepcLcLBitMasklE6gR_Dictionary();
+   static void mithepcLcLBitMasklE6gR_TClassManip(TClass*);
+   static void *new_mithepcLcLBitMasklE6gR(void *p = 0);
+   static void *newArray_mithepcLcLBitMasklE6gR(Long_t size, void *p);
+   static void delete_mithepcLcLBitMasklE6gR(void *p);
+   static void deleteArray_mithepcLcLBitMasklE6gR(void *p);
+   static void destruct_mithepcLcLBitMasklE6gR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<6>*)
+   {
+      ::mithep::BitMask<6> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<6> >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::BitMask<6>", ::mithep::BitMask<6>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
+                  typeid(::mithep::BitMask<6>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLBitMasklE6gR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::BitMask<6>) );
+      instance.SetNew(&new_mithepcLcLBitMasklE6gR);
+      instance.SetNewArray(&newArray_mithepcLcLBitMasklE6gR);
+      instance.SetDelete(&delete_mithepcLcLBitMasklE6gR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE6gR);
+      instance.SetDestructor(&destruct_mithepcLcLBitMasklE6gR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<6>*)
+   {
+      return GenerateInitInstanceLocal((::mithep::BitMask<6>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *mithepcLcLBitMasklE6gR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetClass();
+      mithepcLcLBitMasklE6gR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void mithepcLcLBitMasklE6gR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *mithepcLcLBitMasklE16gR_Dictionary();
+   static void mithepcLcLBitMasklE16gR_TClassManip(TClass*);
+   static void *new_mithepcLcLBitMasklE16gR(void *p = 0);
+   static void *newArray_mithepcLcLBitMasklE16gR(Long_t size, void *p);
+   static void delete_mithepcLcLBitMasklE16gR(void *p);
+   static void deleteArray_mithepcLcLBitMasklE16gR(void *p);
+   static void destruct_mithepcLcLBitMasklE16gR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<16>*)
+   {
+      ::mithep::BitMask<16> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<16> >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::BitMask<16>", ::mithep::BitMask<16>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
+                  typeid(::mithep::BitMask<16>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLBitMasklE16gR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::BitMask<16>) );
+      instance.SetNew(&new_mithepcLcLBitMasklE16gR);
+      instance.SetNewArray(&newArray_mithepcLcLBitMasklE16gR);
+      instance.SetDelete(&delete_mithepcLcLBitMasklE16gR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE16gR);
+      instance.SetDestructor(&destruct_mithepcLcLBitMasklE16gR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<16>*)
+   {
+      return GenerateInitInstanceLocal((::mithep::BitMask<16>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<16>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *mithepcLcLBitMasklE16gR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<16>*)0x0)->GetClass();
+      mithepcLcLBitMasklE16gR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void mithepcLcLBitMasklE16gR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *mithepcLcLBitMasklE32gR_Dictionary();
+   static void mithepcLcLBitMasklE32gR_TClassManip(TClass*);
+   static void *new_mithepcLcLBitMasklE32gR(void *p = 0);
+   static void *newArray_mithepcLcLBitMasklE32gR(Long_t size, void *p);
+   static void delete_mithepcLcLBitMasklE32gR(void *p);
+   static void deleteArray_mithepcLcLBitMasklE32gR(void *p);
+   static void destruct_mithepcLcLBitMasklE32gR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<32>*)
+   {
+      ::mithep::BitMask<32> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<32> >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::BitMask<32>", ::mithep::BitMask<32>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
+                  typeid(::mithep::BitMask<32>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLBitMasklE32gR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::BitMask<32>) );
+      instance.SetNew(&new_mithepcLcLBitMasklE32gR);
+      instance.SetNewArray(&newArray_mithepcLcLBitMasklE32gR);
+      instance.SetDelete(&delete_mithepcLcLBitMasklE32gR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE32gR);
+      instance.SetDestructor(&destruct_mithepcLcLBitMasklE32gR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<32>*)
+   {
+      return GenerateInitInstanceLocal((::mithep::BitMask<32>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<32>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *mithepcLcLBitMasklE32gR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<32>*)0x0)->GetClass();
+      mithepcLcLBitMasklE32gR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void mithepcLcLBitMasklE32gR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *mithepcLcLBitMasklE128gR_Dictionary();
+   static void mithepcLcLBitMasklE128gR_TClassManip(TClass*);
+   static void *new_mithepcLcLBitMasklE128gR(void *p = 0);
+   static void *newArray_mithepcLcLBitMasklE128gR(Long_t size, void *p);
+   static void delete_mithepcLcLBitMasklE128gR(void *p);
+   static void deleteArray_mithepcLcLBitMasklE128gR(void *p);
+   static void destruct_mithepcLcLBitMasklE128gR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<128>*)
+   {
+      ::mithep::BitMask<128> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<128> >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::BitMask<128>", ::mithep::BitMask<128>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
+                  typeid(::mithep::BitMask<128>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLBitMasklE128gR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::BitMask<128>) );
+      instance.SetNew(&new_mithepcLcLBitMasklE128gR);
+      instance.SetNewArray(&newArray_mithepcLcLBitMasklE128gR);
+      instance.SetDelete(&delete_mithepcLcLBitMasklE128gR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE128gR);
+      instance.SetDestructor(&destruct_mithepcLcLBitMasklE128gR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<128>*)
+   {
+      return GenerateInitInstanceLocal((::mithep::BitMask<128>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<128>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *mithepcLcLBitMasklE128gR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<128>*)0x0)->GetClass();
+      mithepcLcLBitMasklE128gR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void mithepcLcLBitMasklE128gR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *mithepcLcLBitMasklE8gR_Dictionary();
+   static void mithepcLcLBitMasklE8gR_TClassManip(TClass*);
+   static void *new_mithepcLcLBitMasklE8gR(void *p = 0);
+   static void *newArray_mithepcLcLBitMasklE8gR(Long_t size, void *p);
+   static void delete_mithepcLcLBitMasklE8gR(void *p);
+   static void deleteArray_mithepcLcLBitMasklE8gR(void *p);
+   static void destruct_mithepcLcLBitMasklE8gR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<8>*)
+   {
+      ::mithep::BitMask<8> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<8> >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::BitMask<8>", ::mithep::BitMask<8>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
+                  typeid(::mithep::BitMask<8>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLBitMasklE8gR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::BitMask<8>) );
+      instance.SetNew(&new_mithepcLcLBitMasklE8gR);
+      instance.SetNewArray(&newArray_mithepcLcLBitMasklE8gR);
+      instance.SetDelete(&delete_mithepcLcLBitMasklE8gR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE8gR);
+      instance.SetDestructor(&destruct_mithepcLcLBitMasklE8gR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<8>*)
+   {
+      return GenerateInitInstanceLocal((::mithep::BitMask<8>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *mithepcLcLBitMasklE8gR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetClass();
+      mithepcLcLBitMasklE8gR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void mithepcLcLBitMasklE8gR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *mithepcLcLBitMasklE2gR_Dictionary();
+   static void mithepcLcLBitMasklE2gR_TClassManip(TClass*);
+   static void *new_mithepcLcLBitMasklE2gR(void *p = 0);
+   static void *newArray_mithepcLcLBitMasklE2gR(Long_t size, void *p);
+   static void delete_mithepcLcLBitMasklE2gR(void *p);
+   static void deleteArray_mithepcLcLBitMasklE2gR(void *p);
+   static void destruct_mithepcLcLBitMasklE2gR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<2>*)
+   {
+      ::mithep::BitMask<2> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<2> >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::BitMask<2>", ::mithep::BitMask<2>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
+                  typeid(::mithep::BitMask<2>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLBitMasklE2gR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::BitMask<2>) );
+      instance.SetNew(&new_mithepcLcLBitMasklE2gR);
+      instance.SetNewArray(&newArray_mithepcLcLBitMasklE2gR);
+      instance.SetDelete(&delete_mithepcLcLBitMasklE2gR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE2gR);
+      instance.SetDestructor(&destruct_mithepcLcLBitMasklE2gR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<2>*)
+   {
+      return GenerateInitInstanceLocal((::mithep::BitMask<2>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *mithepcLcLBitMasklE2gR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetClass();
+      mithepcLcLBitMasklE2gR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void mithepcLcLBitMasklE2gR_TClassManip(TClass* ){
+   }
+
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -250,51 +607,6 @@ namespace ROOT {
 } // end of namespace ROOT
 
 namespace ROOT {
-   static TClass *mithepcLcLBitMasklE6gR_Dictionary();
-   static void mithepcLcLBitMasklE6gR_TClassManip(TClass*);
-   static void *new_mithepcLcLBitMasklE6gR(void *p = 0);
-   static void *newArray_mithepcLcLBitMasklE6gR(Long_t size, void *p);
-   static void delete_mithepcLcLBitMasklE6gR(void *p);
-   static void deleteArray_mithepcLcLBitMasklE6gR(void *p);
-   static void destruct_mithepcLcLBitMasklE6gR(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<6>*)
-   {
-      ::mithep::BitMask<6> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<6> >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::BitMask<6>", ::mithep::BitMask<6>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
-                  typeid(::mithep::BitMask<6>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLBitMasklE6gR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::BitMask<6>) );
-      instance.SetNew(&new_mithepcLcLBitMasklE6gR);
-      instance.SetNewArray(&newArray_mithepcLcLBitMasklE6gR);
-      instance.SetDelete(&delete_mithepcLcLBitMasklE6gR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE6gR);
-      instance.SetDestructor(&destruct_mithepcLcLBitMasklE6gR);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<6>*)
-   {
-      return GenerateInitInstanceLocal((::mithep::BitMask<6>*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLBitMasklE6gR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetClass();
-      mithepcLcLBitMasklE6gR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void mithepcLcLBitMasklE6gR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
    static TClass *mithepcLcLBitMaskTlEULong64_tgR_Dictionary();
    static void mithepcLcLBitMaskTlEULong64_tgR_TClassManip(TClass*);
    static void *new_mithepcLcLBitMaskTlEULong64_tgR(void *p = 0);
@@ -340,427 +652,42 @@ namespace ROOT {
 } // end of namespace ROOT
 
 namespace ROOT {
-   static TClass *mithepcLcLBitMasklE2gR_Dictionary();
-   static void mithepcLcLBitMasklE2gR_TClassManip(TClass*);
-   static void *new_mithepcLcLBitMasklE2gR(void *p = 0);
-   static void *newArray_mithepcLcLBitMasklE2gR(Long_t size, void *p);
-   static void delete_mithepcLcLBitMasklE2gR(void *p);
-   static void deleteArray_mithepcLcLBitMasklE2gR(void *p);
-   static void destruct_mithepcLcLBitMasklE2gR(void *p);
+   static TClass *mithepcLcLCollectionlETObjectgR_Dictionary();
+   static void mithepcLcLCollectionlETObjectgR_TClassManip(TClass*);
+   static void delete_mithepcLcLCollectionlETObjectgR(void *p);
+   static void deleteArray_mithepcLcLCollectionlETObjectgR(void *p);
+   static void destruct_mithepcLcLCollectionlETObjectgR(void *p);
 
    // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<2>*)
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::Collection<TObject>*)
    {
-      ::mithep::BitMask<2> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<2> >(0);
+      ::mithep::Collection<TObject> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::Collection<TObject> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::BitMask<2>", ::mithep::BitMask<2>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
-                  typeid(::mithep::BitMask<2>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLBitMasklE2gR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::BitMask<2>) );
-      instance.SetNew(&new_mithepcLcLBitMasklE2gR);
-      instance.SetNewArray(&newArray_mithepcLcLBitMasklE2gR);
-      instance.SetDelete(&delete_mithepcLcLBitMasklE2gR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE2gR);
-      instance.SetDestructor(&destruct_mithepcLcLBitMasklE2gR);
+         instance("mithep::Collection<TObject>", ::mithep::Collection<TObject>::Class_Version(), "MitAna/DataCont/interface/Collection.h", 16,
+                  typeid(::mithep::Collection<TObject>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLCollectionlETObjectgR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::Collection<TObject>) );
+      instance.SetDelete(&delete_mithepcLcLCollectionlETObjectgR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLCollectionlETObjectgR);
+      instance.SetDestructor(&destruct_mithepcLcLCollectionlETObjectgR);
       return &instance;
    }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<2>*)
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::Collection<TObject>*)
    {
-      return GenerateInitInstanceLocal((::mithep::BitMask<2>*)0);
+      return GenerateInitInstanceLocal((::mithep::Collection<TObject>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
 
    // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLBitMasklE2gR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetClass();
-      mithepcLcLBitMasklE2gR_TClassManip(theClass);
+   static TClass *mithepcLcLCollectionlETObjectgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetClass();
+      mithepcLcLCollectionlETObjectgR_TClassManip(theClass);
    return theClass;
    }
 
-   static void mithepcLcLBitMasklE2gR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
-   static TClass *mithepcLcLBitMasklE3gR_Dictionary();
-   static void mithepcLcLBitMasklE3gR_TClassManip(TClass*);
-   static void *new_mithepcLcLBitMasklE3gR(void *p = 0);
-   static void *newArray_mithepcLcLBitMasklE3gR(Long_t size, void *p);
-   static void delete_mithepcLcLBitMasklE3gR(void *p);
-   static void deleteArray_mithepcLcLBitMasklE3gR(void *p);
-   static void destruct_mithepcLcLBitMasklE3gR(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<3>*)
-   {
-      ::mithep::BitMask<3> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<3> >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::BitMask<3>", ::mithep::BitMask<3>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
-                  typeid(::mithep::BitMask<3>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLBitMasklE3gR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::BitMask<3>) );
-      instance.SetNew(&new_mithepcLcLBitMasklE3gR);
-      instance.SetNewArray(&newArray_mithepcLcLBitMasklE3gR);
-      instance.SetDelete(&delete_mithepcLcLBitMasklE3gR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE3gR);
-      instance.SetDestructor(&destruct_mithepcLcLBitMasklE3gR);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<3>*)
-   {
-      return GenerateInitInstanceLocal((::mithep::BitMask<3>*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<3>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLBitMasklE3gR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<3>*)0x0)->GetClass();
-      mithepcLcLBitMasklE3gR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void mithepcLcLBitMasklE3gR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
-   static TClass *mithepcLcLBitMasklE8gR_Dictionary();
-   static void mithepcLcLBitMasklE8gR_TClassManip(TClass*);
-   static void *new_mithepcLcLBitMasklE8gR(void *p = 0);
-   static void *newArray_mithepcLcLBitMasklE8gR(Long_t size, void *p);
-   static void delete_mithepcLcLBitMasklE8gR(void *p);
-   static void deleteArray_mithepcLcLBitMasklE8gR(void *p);
-   static void destruct_mithepcLcLBitMasklE8gR(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<8>*)
-   {
-      ::mithep::BitMask<8> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<8> >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::BitMask<8>", ::mithep::BitMask<8>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
-                  typeid(::mithep::BitMask<8>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLBitMasklE8gR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::BitMask<8>) );
-      instance.SetNew(&new_mithepcLcLBitMasklE8gR);
-      instance.SetNewArray(&newArray_mithepcLcLBitMasklE8gR);
-      instance.SetDelete(&delete_mithepcLcLBitMasklE8gR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE8gR);
-      instance.SetDestructor(&destruct_mithepcLcLBitMasklE8gR);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<8>*)
-   {
-      return GenerateInitInstanceLocal((::mithep::BitMask<8>*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLBitMasklE8gR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetClass();
-      mithepcLcLBitMasklE8gR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void mithepcLcLBitMasklE8gR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
-   static TClass *mithepcLcLBitMasklE16gR_Dictionary();
-   static void mithepcLcLBitMasklE16gR_TClassManip(TClass*);
-   static void *new_mithepcLcLBitMasklE16gR(void *p = 0);
-   static void *newArray_mithepcLcLBitMasklE16gR(Long_t size, void *p);
-   static void delete_mithepcLcLBitMasklE16gR(void *p);
-   static void deleteArray_mithepcLcLBitMasklE16gR(void *p);
-   static void destruct_mithepcLcLBitMasklE16gR(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<16>*)
-   {
-      ::mithep::BitMask<16> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<16> >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::BitMask<16>", ::mithep::BitMask<16>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
-                  typeid(::mithep::BitMask<16>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLBitMasklE16gR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::BitMask<16>) );
-      instance.SetNew(&new_mithepcLcLBitMasklE16gR);
-      instance.SetNewArray(&newArray_mithepcLcLBitMasklE16gR);
-      instance.SetDelete(&delete_mithepcLcLBitMasklE16gR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE16gR);
-      instance.SetDestructor(&destruct_mithepcLcLBitMasklE16gR);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<16>*)
-   {
-      return GenerateInitInstanceLocal((::mithep::BitMask<16>*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<16>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLBitMasklE16gR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<16>*)0x0)->GetClass();
-      mithepcLcLBitMasklE16gR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void mithepcLcLBitMasklE16gR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
-   static TClass *mithepcLcLBitMasklE32gR_Dictionary();
-   static void mithepcLcLBitMasklE32gR_TClassManip(TClass*);
-   static void *new_mithepcLcLBitMasklE32gR(void *p = 0);
-   static void *newArray_mithepcLcLBitMasklE32gR(Long_t size, void *p);
-   static void delete_mithepcLcLBitMasklE32gR(void *p);
-   static void deleteArray_mithepcLcLBitMasklE32gR(void *p);
-   static void destruct_mithepcLcLBitMasklE32gR(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<32>*)
-   {
-      ::mithep::BitMask<32> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<32> >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::BitMask<32>", ::mithep::BitMask<32>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
-                  typeid(::mithep::BitMask<32>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLBitMasklE32gR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::BitMask<32>) );
-      instance.SetNew(&new_mithepcLcLBitMasklE32gR);
-      instance.SetNewArray(&newArray_mithepcLcLBitMasklE32gR);
-      instance.SetDelete(&delete_mithepcLcLBitMasklE32gR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE32gR);
-      instance.SetDestructor(&destruct_mithepcLcLBitMasklE32gR);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<32>*)
-   {
-      return GenerateInitInstanceLocal((::mithep::BitMask<32>*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<32>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLBitMasklE32gR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<32>*)0x0)->GetClass();
-      mithepcLcLBitMasklE32gR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void mithepcLcLBitMasklE32gR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
-   static TClass *mithepcLcLBitMasklE128gR_Dictionary();
-   static void mithepcLcLBitMasklE128gR_TClassManip(TClass*);
-   static void *new_mithepcLcLBitMasklE128gR(void *p = 0);
-   static void *newArray_mithepcLcLBitMasklE128gR(Long_t size, void *p);
-   static void delete_mithepcLcLBitMasklE128gR(void *p);
-   static void deleteArray_mithepcLcLBitMasklE128gR(void *p);
-   static void destruct_mithepcLcLBitMasklE128gR(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::BitMask<128>*)
-   {
-      ::mithep::BitMask<128> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::BitMask<128> >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::BitMask<128>", ::mithep::BitMask<128>::Class_Version(), "MitAna/DataCont/interface/BitMask.h", 23,
-                  typeid(::mithep::BitMask<128>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLBitMasklE128gR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::BitMask<128>) );
-      instance.SetNew(&new_mithepcLcLBitMasklE128gR);
-      instance.SetNewArray(&newArray_mithepcLcLBitMasklE128gR);
-      instance.SetDelete(&delete_mithepcLcLBitMasklE128gR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLBitMasklE128gR);
-      instance.SetDestructor(&destruct_mithepcLcLBitMasklE128gR);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::BitMask<128>*)
-   {
-      return GenerateInitInstanceLocal((::mithep::BitMask<128>*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<128>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLBitMasklE128gR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<128>*)0x0)->GetClass();
-      mithepcLcLBitMasklE128gR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void mithepcLcLBitMasklE128gR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
-   static void *new_mithepcLcLCacheFlag(void *p = 0);
-   static void *newArray_mithepcLcLCacheFlag(Long_t size, void *p);
-   static void delete_mithepcLcLCacheFlag(void *p);
-   static void deleteArray_mithepcLcLCacheFlag(void *p);
-   static void destruct_mithepcLcLCacheFlag(void *p);
-   static void streamer_mithepcLcLCacheFlag(TBuffer &buf, void *obj);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::CacheFlag*)
-   {
-      ::mithep::CacheFlag *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::CacheFlag >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::CacheFlag", ::mithep::CacheFlag::Class_Version(), "MitAna/DataCont/interface/CacheFlag.h", 16,
-                  typeid(::mithep::CacheFlag), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &::mithep::CacheFlag::Dictionary, isa_proxy, 17,
-                  sizeof(::mithep::CacheFlag) );
-      instance.SetNew(&new_mithepcLcLCacheFlag);
-      instance.SetNewArray(&newArray_mithepcLcLCacheFlag);
-      instance.SetDelete(&delete_mithepcLcLCacheFlag);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLCacheFlag);
-      instance.SetDestructor(&destruct_mithepcLcLCacheFlag);
-      instance.SetStreamerFunc(&streamer_mithepcLcLCacheFlag);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::CacheFlag*)
-   {
-      return GenerateInitInstanceLocal((::mithep::CacheFlag*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-} // end of namespace ROOT
-
-namespace ROOT {
-   static void *new_mithepcLcLProcIDRef(void *p = 0);
-   static void *newArray_mithepcLcLProcIDRef(Long_t size, void *p);
-   static void delete_mithepcLcLProcIDRef(void *p);
-   static void deleteArray_mithepcLcLProcIDRef(void *p);
-   static void destruct_mithepcLcLProcIDRef(void *p);
-   static void streamer_mithepcLcLProcIDRef(TBuffer &buf, void *obj);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::ProcIDRef*)
-   {
-      ::mithep::ProcIDRef *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::ProcIDRef >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::ProcIDRef", ::mithep::ProcIDRef::Class_Version(), "MitAna/DataCont/interface/ProcIDRef.h", 18,
-                  typeid(::mithep::ProcIDRef), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &::mithep::ProcIDRef::Dictionary, isa_proxy, 17,
-                  sizeof(::mithep::ProcIDRef) );
-      instance.SetNew(&new_mithepcLcLProcIDRef);
-      instance.SetNewArray(&newArray_mithepcLcLProcIDRef);
-      instance.SetDelete(&delete_mithepcLcLProcIDRef);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLProcIDRef);
-      instance.SetDestructor(&destruct_mithepcLcLProcIDRef);
-      instance.SetStreamerFunc(&streamer_mithepcLcLProcIDRef);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::ProcIDRef*)
-   {
-      return GenerateInitInstanceLocal((::mithep::ProcIDRef*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-} // end of namespace ROOT
-
-namespace ROOT {
-   static TClass *mithepcLcLCollectionlEmithepcLcLProcIDRefgR_Dictionary();
-   static void mithepcLcLCollectionlEmithepcLcLProcIDRefgR_TClassManip(TClass*);
-   static void delete_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p);
-   static void deleteArray_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p);
-   static void destruct_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::Collection<mithep::ProcIDRef>*)
-   {
-      ::mithep::Collection<mithep::ProcIDRef> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::Collection<mithep::ProcIDRef> >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::Collection<mithep::ProcIDRef>", ::mithep::Collection<mithep::ProcIDRef>::Class_Version(), "MitAna/DataCont/interface/Collection.h", 16,
-                  typeid(::mithep::Collection<mithep::ProcIDRef>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLCollectionlEmithepcLcLProcIDRefgR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::Collection<mithep::ProcIDRef>) );
-      instance.SetDelete(&delete_mithepcLcLCollectionlEmithepcLcLProcIDRefgR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLCollectionlEmithepcLcLProcIDRefgR);
-      instance.SetDestructor(&destruct_mithepcLcLCollectionlEmithepcLcLProcIDRefgR);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::Collection<mithep::ProcIDRef>*)
-   {
-      return GenerateInitInstanceLocal((::mithep::Collection<mithep::ProcIDRef>*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLCollectionlEmithepcLcLProcIDRefgR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetClass();
-      mithepcLcLCollectionlEmithepcLcLProcIDRefgR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void mithepcLcLCollectionlEmithepcLcLProcIDRefgR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
-   static TClass *mithepcLcLFastArraylEmithepcLcLProcIDRefgR_Dictionary();
-   static void mithepcLcLFastArraylEmithepcLcLProcIDRefgR_TClassManip(TClass*);
-   static void *new_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p = 0);
-   static void *newArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(Long_t size, void *p);
-   static void delete_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p);
-   static void deleteArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p);
-   static void destruct_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p);
-   static void streamer_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(TBuffer &buf, void *obj);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::FastArray<mithep::ProcIDRef>*)
-   {
-      ::mithep::FastArray<mithep::ProcIDRef> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArray<mithep::ProcIDRef> >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArray<mithep::ProcIDRef>", ::mithep::FastArray<mithep::ProcIDRef>::Class_Version(), "MitAna/DataCont/interface/FastArray.h", 27,
-                  typeid(::mithep::FastArray<mithep::ProcIDRef>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLFastArraylEmithepcLcLProcIDRefgR_Dictionary, isa_proxy, 17,
-                  sizeof(::mithep::FastArray<mithep::ProcIDRef>) );
-      instance.SetNew(&new_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
-      instance.SetNewArray(&newArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
-      instance.SetDelete(&delete_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
-      instance.SetDestructor(&destruct_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
-      instance.SetStreamerFunc(&streamer_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::FastArray<mithep::ProcIDRef>*)
-   {
-      return GenerateInitInstanceLocal((::mithep::FastArray<mithep::ProcIDRef>*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLFastArraylEmithepcLcLProcIDRefgR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetClass();
-      mithepcLcLFastArraylEmithepcLcLProcIDRefgR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void mithepcLcLFastArraylEmithepcLcLProcIDRefgR_TClassManip(TClass* ){
+   static void mithepcLcLCollectionlETObjectgR_TClassManip(TClass* ){
    }
 
 } // end of namespace ROOT
@@ -807,48 +734,42 @@ namespace ROOT {
 } // end of namespace ROOT
 
 namespace ROOT {
-   static TClass *mithepcLcLFastArraylETObjStringgR_Dictionary();
-   static void mithepcLcLFastArraylETObjStringgR_TClassManip(TClass*);
-   static void *new_mithepcLcLFastArraylETObjStringgR(void *p = 0);
-   static void *newArray_mithepcLcLFastArraylETObjStringgR(Long_t size, void *p);
-   static void delete_mithepcLcLFastArraylETObjStringgR(void *p);
-   static void deleteArray_mithepcLcLFastArraylETObjStringgR(void *p);
-   static void destruct_mithepcLcLFastArraylETObjStringgR(void *p);
-   static void streamer_mithepcLcLFastArraylETObjStringgR(TBuffer &buf, void *obj);
+   static TClass *mithepcLcLCollectionlEmithepcLcLProcIDRefgR_Dictionary();
+   static void mithepcLcLCollectionlEmithepcLcLProcIDRefgR_TClassManip(TClass*);
+   static void delete_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p);
+   static void deleteArray_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p);
+   static void destruct_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p);
 
    // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::FastArray<TObjString>*)
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::Collection<mithep::ProcIDRef>*)
    {
-      ::mithep::FastArray<TObjString> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArray<TObjString> >(0);
+      ::mithep::Collection<mithep::ProcIDRef> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::Collection<mithep::ProcIDRef> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArray<TObjString>", ::mithep::FastArray<TObjString>::Class_Version(), "MitAna/DataCont/interface/FastArray.h", 27,
-                  typeid(::mithep::FastArray<TObjString>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLFastArraylETObjStringgR_Dictionary, isa_proxy, 17,
-                  sizeof(::mithep::FastArray<TObjString>) );
-      instance.SetNew(&new_mithepcLcLFastArraylETObjStringgR);
-      instance.SetNewArray(&newArray_mithepcLcLFastArraylETObjStringgR);
-      instance.SetDelete(&delete_mithepcLcLFastArraylETObjStringgR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLFastArraylETObjStringgR);
-      instance.SetDestructor(&destruct_mithepcLcLFastArraylETObjStringgR);
-      instance.SetStreamerFunc(&streamer_mithepcLcLFastArraylETObjStringgR);
+         instance("mithep::Collection<mithep::ProcIDRef>", ::mithep::Collection<mithep::ProcIDRef>::Class_Version(), "MitAna/DataCont/interface/Collection.h", 16,
+                  typeid(::mithep::Collection<mithep::ProcIDRef>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLCollectionlEmithepcLcLProcIDRefgR_Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::Collection<mithep::ProcIDRef>) );
+      instance.SetDelete(&delete_mithepcLcLCollectionlEmithepcLcLProcIDRefgR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLCollectionlEmithepcLcLProcIDRefgR);
+      instance.SetDestructor(&destruct_mithepcLcLCollectionlEmithepcLcLProcIDRefgR);
       return &instance;
    }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::FastArray<TObjString>*)
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::Collection<mithep::ProcIDRef>*)
    {
-      return GenerateInitInstanceLocal((::mithep::FastArray<TObjString>*)0);
+      return GenerateInitInstanceLocal((::mithep::Collection<mithep::ProcIDRef>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
 
    // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLFastArraylETObjStringgR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetClass();
-      mithepcLcLFastArraylETObjStringgR_TClassManip(theClass);
+   static TClass *mithepcLcLCollectionlEmithepcLcLProcIDRefgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetClass();
+      mithepcLcLCollectionlEmithepcLcLProcIDRefgR_TClassManip(theClass);
    return theClass;
    }
 
-   static void mithepcLcLFastArraylETObjStringgR_TClassManip(TClass* ){
+   static void mithepcLcLCollectionlEmithepcLcLProcIDRefgR_TClassManip(TClass* ){
    }
 
 } // end of namespace ROOT
@@ -869,7 +790,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<double,false> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<double,false> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<double,false>", ::mithep::FastArrayBasic<double,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<double,false>", ::mithep::FastArrayBasic<double,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<double,false>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEdoublecOfalsegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<double,false>) );
@@ -918,7 +839,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<Double32_t,true> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<Double32_t,true> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<Double32_t,true>", ::mithep::FastArrayBasic<Double32_t,true>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<Double32_t,true>", ::mithep::FastArrayBasic<Double32_t,true>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<Double32_t,true>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEDouble32_tcOtruegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<Double32_t,true>) );
@@ -963,7 +884,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<int,false> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<int,false> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<int,false>", ::mithep::FastArrayBasic<int,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<int,false>", ::mithep::FastArrayBasic<int,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<int,false>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEintcOfalsegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<int,false>) );
@@ -1012,7 +933,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<unsigned int,false> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<unsigned int,false> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<unsigned int,false>", ::mithep::FastArrayBasic<unsigned int,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<unsigned int,false>", ::mithep::FastArrayBasic<unsigned int,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<unsigned int,false>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEunsignedsPintcOfalsegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<unsigned int,false>) );
@@ -1061,7 +982,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<short,false> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<short,false> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<short,false>", ::mithep::FastArrayBasic<short,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<short,false>", ::mithep::FastArrayBasic<short,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<short,false>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEshortcOfalsegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<short,false>) );
@@ -1110,7 +1031,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<unsigned short,false> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<unsigned short,false> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<unsigned short,false>", ::mithep::FastArrayBasic<unsigned short,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<unsigned short,false>", ::mithep::FastArrayBasic<unsigned short,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<unsigned short,false>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEunsignedsPshortcOfalsegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<unsigned short,false>) );
@@ -1159,7 +1080,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<char,false> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<char,false> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<char,false>", ::mithep::FastArrayBasic<char,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<char,false>", ::mithep::FastArrayBasic<char,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<char,false>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEcharcOfalsegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<char,false>) );
@@ -1208,7 +1129,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<unsigned char,false> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<unsigned char,false> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<unsigned char,false>", ::mithep::FastArrayBasic<unsigned char,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<unsigned char,false>", ::mithep::FastArrayBasic<unsigned char,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<unsigned char,false>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEunsignedsPcharcOfalsegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<unsigned char,false>) );
@@ -1257,7 +1178,7 @@ namespace ROOT {
       ::mithep::FastArrayBasic<bool,false> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArrayBasic<bool,false> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::FastArrayBasic<bool,false>", ::mithep::FastArrayBasic<bool,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 36,
+         instance("mithep::FastArrayBasic<bool,false>", ::mithep::FastArrayBasic<bool,false>::Class_Version(), "MitAna/DataCont/interface/FastArrayBasic.h", 37,
                   typeid(::mithep::FastArrayBasic<bool,false>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &mithepcLcLFastArrayBasiclEboolcOfalsegR_Dictionary, isa_proxy, 17,
                   sizeof(::mithep::FastArrayBasic<bool,false>) );
@@ -1728,44 +1649,131 @@ namespace ROOT {
 } // end of namespace ROOT
 
 namespace ROOT {
-   static TClass *mithepcLcLCollectionlETObjectgR_Dictionary();
-   static void mithepcLcLCollectionlETObjectgR_TClassManip(TClass*);
-   static void delete_mithepcLcLCollectionlETObjectgR(void *p);
-   static void deleteArray_mithepcLcLCollectionlETObjectgR(void *p);
-   static void destruct_mithepcLcLCollectionlETObjectgR(void *p);
+   static TClass *mithepcLcLFastArraylETObjStringgR_Dictionary();
+   static void mithepcLcLFastArraylETObjStringgR_TClassManip(TClass*);
+   static void *new_mithepcLcLFastArraylETObjStringgR(void *p = 0);
+   static void *newArray_mithepcLcLFastArraylETObjStringgR(Long_t size, void *p);
+   static void delete_mithepcLcLFastArraylETObjStringgR(void *p);
+   static void deleteArray_mithepcLcLFastArraylETObjStringgR(void *p);
+   static void destruct_mithepcLcLFastArraylETObjStringgR(void *p);
+   static void streamer_mithepcLcLFastArraylETObjStringgR(TBuffer &buf, void *obj);
 
    // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::Collection<TObject>*)
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::FastArray<TObjString>*)
    {
-      ::mithep::Collection<TObject> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::Collection<TObject> >(0);
+      ::mithep::FastArray<TObjString> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArray<TObjString> >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("mithep::Collection<TObject>", ::mithep::Collection<TObject>::Class_Version(), "MitAna/DataCont/interface/Collection.h", 16,
-                  typeid(::mithep::Collection<TObject>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &mithepcLcLCollectionlETObjectgR_Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::Collection<TObject>) );
-      instance.SetDelete(&delete_mithepcLcLCollectionlETObjectgR);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLCollectionlETObjectgR);
-      instance.SetDestructor(&destruct_mithepcLcLCollectionlETObjectgR);
+         instance("mithep::FastArray<TObjString>", ::mithep::FastArray<TObjString>::Class_Version(), "MitAna/DataCont/interface/FastArray.h", 28,
+                  typeid(::mithep::FastArray<TObjString>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLFastArraylETObjStringgR_Dictionary, isa_proxy, 17,
+                  sizeof(::mithep::FastArray<TObjString>) );
+      instance.SetNew(&new_mithepcLcLFastArraylETObjStringgR);
+      instance.SetNewArray(&newArray_mithepcLcLFastArraylETObjStringgR);
+      instance.SetDelete(&delete_mithepcLcLFastArraylETObjStringgR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLFastArraylETObjStringgR);
+      instance.SetDestructor(&destruct_mithepcLcLFastArraylETObjStringgR);
+      instance.SetStreamerFunc(&streamer_mithepcLcLFastArraylETObjStringgR);
       return &instance;
    }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::Collection<TObject>*)
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::FastArray<TObjString>*)
    {
-      return GenerateInitInstanceLocal((::mithep::Collection<TObject>*)0);
+      return GenerateInitInstanceLocal((::mithep::FastArray<TObjString>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
 
    // Dictionary for non-ClassDef classes
-   static TClass *mithepcLcLCollectionlETObjectgR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetClass();
-      mithepcLcLCollectionlETObjectgR_TClassManip(theClass);
+   static TClass *mithepcLcLFastArraylETObjStringgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetClass();
+      mithepcLcLFastArraylETObjStringgR_TClassManip(theClass);
    return theClass;
    }
 
-   static void mithepcLcLCollectionlETObjectgR_TClassManip(TClass* ){
+   static void mithepcLcLFastArraylETObjStringgR_TClassManip(TClass* ){
    }
 
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *mithepcLcLFastArraylEmithepcLcLProcIDRefgR_Dictionary();
+   static void mithepcLcLFastArraylEmithepcLcLProcIDRefgR_TClassManip(TClass*);
+   static void *new_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p = 0);
+   static void *newArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(Long_t size, void *p);
+   static void delete_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p);
+   static void deleteArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p);
+   static void destruct_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p);
+   static void streamer_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(TBuffer &buf, void *obj);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::FastArray<mithep::ProcIDRef>*)
+   {
+      ::mithep::FastArray<mithep::ProcIDRef> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::FastArray<mithep::ProcIDRef> >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::FastArray<mithep::ProcIDRef>", ::mithep::FastArray<mithep::ProcIDRef>::Class_Version(), "MitAna/DataCont/interface/FastArray.h", 28,
+                  typeid(::mithep::FastArray<mithep::ProcIDRef>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &mithepcLcLFastArraylEmithepcLcLProcIDRefgR_Dictionary, isa_proxy, 17,
+                  sizeof(::mithep::FastArray<mithep::ProcIDRef>) );
+      instance.SetNew(&new_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
+      instance.SetNewArray(&newArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
+      instance.SetDelete(&delete_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
+      instance.SetDestructor(&destruct_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
+      instance.SetStreamerFunc(&streamer_mithepcLcLFastArraylEmithepcLcLProcIDRefgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::FastArray<mithep::ProcIDRef>*)
+   {
+      return GenerateInitInstanceLocal((::mithep::FastArray<mithep::ProcIDRef>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *mithepcLcLFastArraylEmithepcLcLProcIDRefgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetClass();
+      mithepcLcLFastArraylEmithepcLcLProcIDRefgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void mithepcLcLFastArraylEmithepcLcLProcIDRefgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static void *new_mithepcLcLCacheFlag(void *p = 0);
+   static void *newArray_mithepcLcLCacheFlag(Long_t size, void *p);
+   static void delete_mithepcLcLCacheFlag(void *p);
+   static void deleteArray_mithepcLcLCacheFlag(void *p);
+   static void destruct_mithepcLcLCacheFlag(void *p);
+   static void streamer_mithepcLcLCacheFlag(TBuffer &buf, void *obj);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::CacheFlag*)
+   {
+      ::mithep::CacheFlag *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::CacheFlag >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::CacheFlag", ::mithep::CacheFlag::Class_Version(), "MitAna/DataCont/interface/CacheFlag.h", 16,
+                  typeid(::mithep::CacheFlag), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &::mithep::CacheFlag::Dictionary, isa_proxy, 17,
+                  sizeof(::mithep::CacheFlag) );
+      instance.SetNew(&new_mithepcLcLCacheFlag);
+      instance.SetNewArray(&newArray_mithepcLcLCacheFlag);
+      instance.SetDelete(&delete_mithepcLcLCacheFlag);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLCacheFlag);
+      instance.SetDestructor(&destruct_mithepcLcLCacheFlag);
+      instance.SetStreamerFunc(&streamer_mithepcLcLCacheFlag);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::CacheFlag*)
+   {
+      return GenerateInitInstanceLocal((::mithep::CacheFlag*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0); R__UseDummy(_R__UNIQUE_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -1814,78 +1822,37 @@ namespace ROOT {
 } // end of namespace ROOT
 
 namespace ROOT {
-   static TClass *pairlEunsignedsPintcOunsignedsPintgR_Dictionary();
-   static void pairlEunsignedsPintcOunsignedsPintgR_TClassManip(TClass*);
-   static void *new_pairlEunsignedsPintcOunsignedsPintgR(void *p = 0);
-   static void *newArray_pairlEunsignedsPintcOunsignedsPintgR(Long_t size, void *p);
-   static void delete_pairlEunsignedsPintcOunsignedsPintgR(void *p);
-   static void deleteArray_pairlEunsignedsPintcOunsignedsPintgR(void *p);
-   static void destruct_pairlEunsignedsPintcOunsignedsPintgR(void *p);
+   static void *new_mithepcLcLProcIDRef(void *p = 0);
+   static void *newArray_mithepcLcLProcIDRef(Long_t size, void *p);
+   static void delete_mithepcLcLProcIDRef(void *p);
+   static void deleteArray_mithepcLcLProcIDRef(void *p);
+   static void destruct_mithepcLcLProcIDRef(void *p);
+   static void streamer_mithepcLcLProcIDRef(TBuffer &buf, void *obj);
 
    // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const pair<unsigned int,unsigned int>*)
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::ProcIDRef*)
    {
-      pair<unsigned int,unsigned int> *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(pair<unsigned int,unsigned int>));
+      ::mithep::ProcIDRef *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::ProcIDRef >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("pair<unsigned int,unsigned int>", "string", 96,
-                  typeid(pair<unsigned int,unsigned int>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &pairlEunsignedsPintcOunsignedsPintgR_Dictionary, isa_proxy, 4,
-                  sizeof(pair<unsigned int,unsigned int>) );
-      instance.SetNew(&new_pairlEunsignedsPintcOunsignedsPintgR);
-      instance.SetNewArray(&newArray_pairlEunsignedsPintcOunsignedsPintgR);
-      instance.SetDelete(&delete_pairlEunsignedsPintcOunsignedsPintgR);
-      instance.SetDeleteArray(&deleteArray_pairlEunsignedsPintcOunsignedsPintgR);
-      instance.SetDestructor(&destruct_pairlEunsignedsPintcOunsignedsPintgR);
-
-      ::ROOT::AddClassAlternate("pair<unsigned int,unsigned int>","pair<UInt_t,UInt_t>");
+         instance("mithep::ProcIDRef", ::mithep::ProcIDRef::Class_Version(), "MitAna/DataCont/interface/ProcIDRef.h", 19,
+                  typeid(::mithep::ProcIDRef), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &::mithep::ProcIDRef::Dictionary, isa_proxy, 17,
+                  sizeof(::mithep::ProcIDRef) );
+      instance.SetNew(&new_mithepcLcLProcIDRef);
+      instance.SetNewArray(&newArray_mithepcLcLProcIDRef);
+      instance.SetDelete(&delete_mithepcLcLProcIDRef);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLProcIDRef);
+      instance.SetDestructor(&destruct_mithepcLcLProcIDRef);
+      instance.SetStreamerFunc(&streamer_mithepcLcLProcIDRef);
       return &instance;
    }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const pair<unsigned int,unsigned int>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
-
-   // Dictionary for non-ClassDef classes
-   static TClass *pairlEunsignedsPintcOunsignedsPintgR_Dictionary() {
-      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const pair<unsigned int,unsigned int>*)0x0)->GetClass();
-      pairlEunsignedsPintcOunsignedsPintgR_TClassManip(theClass);
-   return theClass;
-   }
-
-   static void pairlEunsignedsPintcOunsignedsPintgR_TClassManip(TClass* ){
-   }
-
-} // end of namespace ROOT
-
-namespace ROOT {
-   static void *new_mithepcLcLRunLumiRangeMap(void *p = 0);
-   static void *newArray_mithepcLcLRunLumiRangeMap(Long_t size, void *p);
-   static void delete_mithepcLcLRunLumiRangeMap(void *p);
-   static void deleteArray_mithepcLcLRunLumiRangeMap(void *p);
-   static void destruct_mithepcLcLRunLumiRangeMap(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::RunLumiRangeMap*)
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::ProcIDRef*)
    {
-      ::mithep::RunLumiRangeMap *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::RunLumiRangeMap >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("mithep::RunLumiRangeMap", ::mithep::RunLumiRangeMap::Class_Version(), "MitAna/DataCont/interface/RunLumiRangeMap.h", 22,
-                  typeid(::mithep::RunLumiRangeMap), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &::mithep::RunLumiRangeMap::Dictionary, isa_proxy, 4,
-                  sizeof(::mithep::RunLumiRangeMap) );
-      instance.SetNew(&new_mithepcLcLRunLumiRangeMap);
-      instance.SetNewArray(&newArray_mithepcLcLRunLumiRangeMap);
-      instance.SetDelete(&delete_mithepcLcLRunLumiRangeMap);
-      instance.SetDeleteArray(&deleteArray_mithepcLcLRunLumiRangeMap);
-      instance.SetDestructor(&destruct_mithepcLcLRunLumiRangeMap);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::mithep::RunLumiRangeMap*)
-   {
-      return GenerateInitInstanceLocal((::mithep::RunLumiRangeMap*)0);
+      return GenerateInitInstanceLocal((::mithep::ProcIDRef*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0); R__UseDummy(_R__UNIQUE_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -1922,6 +1889,38 @@ namespace ROOT {
    static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::RunLumiSet*)0x0); R__UseDummy(_R__UNIQUE_(Init));
 } // end of namespace ROOT
 
+namespace ROOT {
+   static void *new_mithepcLcLRunLumiRangeMap(void *p = 0);
+   static void *newArray_mithepcLcLRunLumiRangeMap(Long_t size, void *p);
+   static void delete_mithepcLcLRunLumiRangeMap(void *p);
+   static void deleteArray_mithepcLcLRunLumiRangeMap(void *p);
+   static void destruct_mithepcLcLRunLumiRangeMap(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::mithep::RunLumiRangeMap*)
+   {
+      ::mithep::RunLumiRangeMap *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::mithep::RunLumiRangeMap >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("mithep::RunLumiRangeMap", ::mithep::RunLumiRangeMap::Class_Version(), "MitAna/DataCont/interface/RunLumiRangeMap.h", 22,
+                  typeid(::mithep::RunLumiRangeMap), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &::mithep::RunLumiRangeMap::Dictionary, isa_proxy, 4,
+                  sizeof(::mithep::RunLumiRangeMap) );
+      instance.SetNew(&new_mithepcLcLRunLumiRangeMap);
+      instance.SetNewArray(&newArray_mithepcLcLRunLumiRangeMap);
+      instance.SetDelete(&delete_mithepcLcLRunLumiRangeMap);
+      instance.SetDeleteArray(&deleteArray_mithepcLcLRunLumiRangeMap);
+      instance.SetDestructor(&destruct_mithepcLcLRunLumiRangeMap);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::mithep::RunLumiRangeMap*)
+   {
+      return GenerateInitInstanceLocal((::mithep::RunLumiRangeMap*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+} // end of namespace ROOT
+
 namespace mithep {
 //______________________________________________________________________________
 atomic_TClass_ptr BaseCollection::fgIsA(0);  // static to hold class pointer
@@ -1955,228 +1954,6 @@ TClass *BaseCollection::Dictionary()
 TClass *BaseCollection::Class()
 {
    if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BaseCollection*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-} // namespace mithep
-namespace mithep {
-//______________________________________________________________________________
-template <> atomic_TClass_ptr BitMaskT<unsigned char>::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-template <> const char *BitMaskT<unsigned char>::Class_Name()
-{
-   return "mithep::BitMaskT<unsigned char>";
-}
-
-//______________________________________________________________________________
-template <> const char *BitMaskT<unsigned char>::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-template <> int BitMaskT<unsigned char>::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMaskT<unsigned char>::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMaskT<unsigned char>::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-} // namespace mithep
-namespace mithep {
-//______________________________________________________________________________
-template <> atomic_TClass_ptr BitMaskT<unsigned short>::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-template <> const char *BitMaskT<unsigned short>::Class_Name()
-{
-   return "mithep::BitMaskT<unsigned short>";
-}
-
-//______________________________________________________________________________
-template <> const char *BitMaskT<unsigned short>::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-template <> int BitMaskT<unsigned short>::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMaskT<unsigned short>::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMaskT<unsigned short>::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-} // namespace mithep
-namespace mithep {
-//______________________________________________________________________________
-template <> atomic_TClass_ptr BitMaskT<unsigned int>::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-template <> const char *BitMaskT<unsigned int>::Class_Name()
-{
-   return "mithep::BitMaskT<unsigned int>";
-}
-
-//______________________________________________________________________________
-template <> const char *BitMaskT<unsigned int>::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-template <> int BitMaskT<unsigned int>::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMaskT<unsigned int>::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMaskT<unsigned int>::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-} // namespace mithep
-namespace mithep {
-//______________________________________________________________________________
-template <> atomic_TClass_ptr BitMask<6>::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-template <> const char *BitMask<6>::Class_Name()
-{
-   return "mithep::BitMask<6>";
-}
-
-//______________________________________________________________________________
-template <> const char *BitMask<6>::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-template <> int BitMask<6>::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMask<6>::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMask<6>::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-} // namespace mithep
-namespace mithep {
-//______________________________________________________________________________
-template <> atomic_TClass_ptr BitMaskT<ULong64_t>::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-template <> const char *BitMaskT<ULong64_t>::Class_Name()
-{
-   return "mithep::BitMaskT<ULong64_t>";
-}
-
-//______________________________________________________________________________
-template <> const char *BitMaskT<ULong64_t>::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-template <> int BitMaskT<ULong64_t>::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMaskT<ULong64_t>::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMaskT<ULong64_t>::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-} // namespace mithep
-namespace mithep {
-//______________________________________________________________________________
-template <> atomic_TClass_ptr BitMask<2>::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-template <> const char *BitMask<2>::Class_Name()
-{
-   return "mithep::BitMask<2>";
-}
-
-//______________________________________________________________________________
-template <> const char *BitMask<2>::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-template <> int BitMask<2>::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMask<2>::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-template <> TClass *BitMask<2>::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2220,37 +1997,37 @@ template <> TClass *BitMask<3>::Class()
 } // namespace mithep
 namespace mithep {
 //______________________________________________________________________________
-template <> atomic_TClass_ptr BitMask<8>::fgIsA(0);  // static to hold class pointer
+template <> atomic_TClass_ptr BitMask<6>::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
-template <> const char *BitMask<8>::Class_Name()
+template <> const char *BitMask<6>::Class_Name()
 {
-   return "mithep::BitMask<8>";
+   return "mithep::BitMask<6>";
 }
 
 //______________________________________________________________________________
-template <> const char *BitMask<8>::ImplFileName()
+template <> const char *BitMask<6>::ImplFileName()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetImplFileName();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetImplFileName();
 }
 
 //______________________________________________________________________________
-template <> int BitMask<8>::ImplFileLine()
+template <> int BitMask<6>::ImplFileLine()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetImplFileLine();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetImplFileLine();
 }
 
 //______________________________________________________________________________
-template <> TClass *BitMask<8>::Dictionary()
+template <> TClass *BitMask<6>::Dictionary()
 {
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetClass();
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetClass();
    return fgIsA;
 }
 
 //______________________________________________________________________________
-template <> TClass *BitMask<8>::Class()
+template <> TClass *BitMask<6>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2368,148 +2145,259 @@ template <> TClass *BitMask<128>::Class()
 } // namespace mithep
 namespace mithep {
 //______________________________________________________________________________
-atomic_TClass_ptr CacheFlag::fgIsA(0);  // static to hold class pointer
+template <> atomic_TClass_ptr BitMask<8>::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
-const char *CacheFlag::Class_Name()
+template <> const char *BitMask<8>::Class_Name()
 {
-   return "mithep::CacheFlag";
+   return "mithep::BitMask<8>";
 }
 
 //______________________________________________________________________________
-const char *CacheFlag::ImplFileName()
+template <> const char *BitMask<8>::ImplFileName()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetImplFileName();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetImplFileName();
 }
 
 //______________________________________________________________________________
-int CacheFlag::ImplFileLine()
+template <> int BitMask<8>::ImplFileLine()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetImplFileLine();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetImplFileLine();
 }
 
 //______________________________________________________________________________
-TClass *CacheFlag::Dictionary()
+template <> TClass *BitMask<8>::Dictionary()
 {
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetClass();
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetClass();
    return fgIsA;
 }
 
 //______________________________________________________________________________
-TClass *CacheFlag::Class()
+template <> TClass *BitMask<8>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-} // namespace mithep
-namespace mithep {
-//______________________________________________________________________________
-atomic_TClass_ptr ProcIDRef::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-const char *ProcIDRef::Class_Name()
-{
-   return "mithep::ProcIDRef";
-}
-
-//______________________________________________________________________________
-const char *ProcIDRef::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-int ProcIDRef::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-TClass *ProcIDRef::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-TClass *ProcIDRef::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
 } // namespace mithep
 namespace mithep {
 //______________________________________________________________________________
-template <> atomic_TClass_ptr Collection<mithep::ProcIDRef>::fgIsA(0);  // static to hold class pointer
+template <> atomic_TClass_ptr BitMask<2>::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
-template <> const char *Collection<mithep::ProcIDRef>::Class_Name()
+template <> const char *BitMask<2>::Class_Name()
 {
-   return "mithep::Collection<mithep::ProcIDRef>";
+   return "mithep::BitMask<2>";
 }
 
 //______________________________________________________________________________
-template <> const char *Collection<mithep::ProcIDRef>::ImplFileName()
+template <> const char *BitMask<2>::ImplFileName()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetImplFileName();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetImplFileName();
 }
 
 //______________________________________________________________________________
-template <> int Collection<mithep::ProcIDRef>::ImplFileLine()
+template <> int BitMask<2>::ImplFileLine()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetImplFileLine();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetImplFileLine();
 }
 
 //______________________________________________________________________________
-template <> TClass *Collection<mithep::ProcIDRef>::Dictionary()
+template <> TClass *BitMask<2>::Dictionary()
 {
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetClass();
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetClass();
    return fgIsA;
 }
 
 //______________________________________________________________________________
-template <> TClass *Collection<mithep::ProcIDRef>::Class()
+template <> TClass *BitMask<2>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
 } // namespace mithep
 namespace mithep {
 //______________________________________________________________________________
-template <> atomic_TClass_ptr FastArray<mithep::ProcIDRef>::fgIsA(0);  // static to hold class pointer
+template <> atomic_TClass_ptr BitMaskT<unsigned char>::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
-template <> const char *FastArray<mithep::ProcIDRef>::Class_Name()
+template <> const char *BitMaskT<unsigned char>::Class_Name()
 {
-   return "mithep::FastArray<mithep::ProcIDRef>";
+   return "mithep::BitMaskT<unsigned char>";
 }
 
 //______________________________________________________________________________
-template <> const char *FastArray<mithep::ProcIDRef>::ImplFileName()
+template <> const char *BitMaskT<unsigned char>::ImplFileName()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetImplFileName();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetImplFileName();
 }
 
 //______________________________________________________________________________
-template <> int FastArray<mithep::ProcIDRef>::ImplFileLine()
+template <> int BitMaskT<unsigned char>::ImplFileLine()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetImplFileLine();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetImplFileLine();
 }
 
 //______________________________________________________________________________
-template <> TClass *FastArray<mithep::ProcIDRef>::Dictionary()
+template <> TClass *BitMaskT<unsigned char>::Dictionary()
 {
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetClass();
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetClass();
    return fgIsA;
 }
 
 //______________________________________________________________________________
-template <> TClass *FastArray<mithep::ProcIDRef>::Class()
+template <> TClass *BitMaskT<unsigned char>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+} // namespace mithep
+namespace mithep {
+//______________________________________________________________________________
+template <> atomic_TClass_ptr BitMaskT<unsigned short>::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+template <> const char *BitMaskT<unsigned short>::Class_Name()
+{
+   return "mithep::BitMaskT<unsigned short>";
+}
+
+//______________________________________________________________________________
+template <> const char *BitMaskT<unsigned short>::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+template <> int BitMaskT<unsigned short>::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+template <> TClass *BitMaskT<unsigned short>::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+template <> TClass *BitMaskT<unsigned short>::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+} // namespace mithep
+namespace mithep {
+//______________________________________________________________________________
+template <> atomic_TClass_ptr BitMaskT<unsigned int>::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+template <> const char *BitMaskT<unsigned int>::Class_Name()
+{
+   return "mithep::BitMaskT<unsigned int>";
+}
+
+//______________________________________________________________________________
+template <> const char *BitMaskT<unsigned int>::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+template <> int BitMaskT<unsigned int>::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+template <> TClass *BitMaskT<unsigned int>::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+template <> TClass *BitMaskT<unsigned int>::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+} // namespace mithep
+namespace mithep {
+//______________________________________________________________________________
+template <> atomic_TClass_ptr BitMaskT<ULong64_t>::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+template <> const char *BitMaskT<ULong64_t>::Class_Name()
+{
+   return "mithep::BitMaskT<ULong64_t>";
+}
+
+//______________________________________________________________________________
+template <> const char *BitMaskT<ULong64_t>::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+template <> int BitMaskT<ULong64_t>::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+template <> TClass *BitMaskT<ULong64_t>::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+template <> TClass *BitMaskT<ULong64_t>::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+} // namespace mithep
+namespace mithep {
+//______________________________________________________________________________
+template <> atomic_TClass_ptr Collection<TObject>::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+template <> const char *Collection<TObject>::Class_Name()
+{
+   return "mithep::Collection<TObject>";
+}
+
+//______________________________________________________________________________
+template <> const char *Collection<TObject>::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+template <> int Collection<TObject>::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+template <> TClass *Collection<TObject>::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+template <> TClass *Collection<TObject>::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2553,37 +2441,37 @@ template <> TClass *Collection<TObjString>::Class()
 } // namespace mithep
 namespace mithep {
 //______________________________________________________________________________
-template <> atomic_TClass_ptr FastArray<TObjString>::fgIsA(0);  // static to hold class pointer
+template <> atomic_TClass_ptr Collection<mithep::ProcIDRef>::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
-template <> const char *FastArray<TObjString>::Class_Name()
+template <> const char *Collection<mithep::ProcIDRef>::Class_Name()
 {
-   return "mithep::FastArray<TObjString>";
+   return "mithep::Collection<mithep::ProcIDRef>";
 }
 
 //______________________________________________________________________________
-template <> const char *FastArray<TObjString>::ImplFileName()
+template <> const char *Collection<mithep::ProcIDRef>::ImplFileName()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetImplFileName();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetImplFileName();
 }
 
 //______________________________________________________________________________
-template <> int FastArray<TObjString>::ImplFileLine()
+template <> int Collection<mithep::ProcIDRef>::ImplFileLine()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetImplFileLine();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetImplFileLine();
 }
 
 //______________________________________________________________________________
-template <> TClass *FastArray<TObjString>::Dictionary()
+template <> TClass *Collection<mithep::ProcIDRef>::Dictionary()
 {
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetClass();
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetClass();
    return fgIsA;
 }
 
 //______________________________________________________________________________
-template <> TClass *FastArray<TObjString>::Class()
+template <> TClass *Collection<mithep::ProcIDRef>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3256,37 +3144,111 @@ template <> TClass *NamedFastArrayBasic<bool,false>::Class()
 } // namespace mithep
 namespace mithep {
 //______________________________________________________________________________
-template <> atomic_TClass_ptr Collection<TObject>::fgIsA(0);  // static to hold class pointer
+template <> atomic_TClass_ptr FastArray<TObjString>::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
-template <> const char *Collection<TObject>::Class_Name()
+template <> const char *FastArray<TObjString>::Class_Name()
 {
-   return "mithep::Collection<TObject>";
+   return "mithep::FastArray<TObjString>";
 }
 
 //______________________________________________________________________________
-template <> const char *Collection<TObject>::ImplFileName()
+template <> const char *FastArray<TObjString>::ImplFileName()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetImplFileName();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetImplFileName();
 }
 
 //______________________________________________________________________________
-template <> int Collection<TObject>::ImplFileLine()
+template <> int FastArray<TObjString>::ImplFileLine()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetImplFileLine();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetImplFileLine();
 }
 
 //______________________________________________________________________________
-template <> TClass *Collection<TObject>::Dictionary()
+template <> TClass *FastArray<TObjString>::Dictionary()
 {
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetClass();
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetClass();
    return fgIsA;
 }
 
 //______________________________________________________________________________
-template <> TClass *Collection<TObject>::Class()
+template <> TClass *FastArray<TObjString>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+} // namespace mithep
+namespace mithep {
+//______________________________________________________________________________
+template <> atomic_TClass_ptr FastArray<mithep::ProcIDRef>::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+template <> const char *FastArray<mithep::ProcIDRef>::Class_Name()
+{
+   return "mithep::FastArray<mithep::ProcIDRef>";
+}
+
+//______________________________________________________________________________
+template <> const char *FastArray<mithep::ProcIDRef>::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+template <> int FastArray<mithep::ProcIDRef>::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+template <> TClass *FastArray<mithep::ProcIDRef>::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+template <> TClass *FastArray<mithep::ProcIDRef>::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+} // namespace mithep
+namespace mithep {
+//______________________________________________________________________________
+atomic_TClass_ptr CacheFlag::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+const char *CacheFlag::Class_Name()
+{
+   return "mithep::CacheFlag";
+}
+
+//______________________________________________________________________________
+const char *CacheFlag::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+int CacheFlag::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+TClass *CacheFlag::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+TClass *CacheFlag::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3330,37 +3292,37 @@ template <> TClass *ObjArray<TObject>::Class()
 } // namespace mithep
 namespace mithep {
 //______________________________________________________________________________
-atomic_TClass_ptr RunLumiRangeMap::fgIsA(0);  // static to hold class pointer
+atomic_TClass_ptr ProcIDRef::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
-const char *RunLumiRangeMap::Class_Name()
+const char *ProcIDRef::Class_Name()
 {
-   return "mithep::RunLumiRangeMap";
+   return "mithep::ProcIDRef";
 }
 
 //______________________________________________________________________________
-const char *RunLumiRangeMap::ImplFileName()
+const char *ProcIDRef::ImplFileName()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetImplFileName();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetImplFileName();
 }
 
 //______________________________________________________________________________
-int RunLumiRangeMap::ImplFileLine()
+int ProcIDRef::ImplFileLine()
 {
-   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetImplFileLine();
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetImplFileLine();
 }
 
 //______________________________________________________________________________
-TClass *RunLumiRangeMap::Dictionary()
+TClass *ProcIDRef::Dictionary()
 {
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetClass();
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetClass();
    return fgIsA;
 }
 
 //______________________________________________________________________________
-TClass *RunLumiRangeMap::Class()
+TClass *ProcIDRef::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3404,6 +3366,64 @@ TClass *RunLumiSet::Class()
 } // namespace mithep
 namespace mithep {
 //______________________________________________________________________________
+atomic_TClass_ptr RunLumiRangeMap::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+const char *RunLumiRangeMap::Class_Name()
+{
+   return "mithep::RunLumiRangeMap";
+}
+
+//______________________________________________________________________________
+const char *RunLumiRangeMap::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+int RunLumiRangeMap::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+TClass *RunLumiRangeMap::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+TClass *RunLumiRangeMap::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_pairlEunsignedsPintcOunsignedsPintgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) pair<unsigned int,unsigned int> : new pair<unsigned int,unsigned int>;
+   }
+   static void *newArray_pairlEunsignedsPintcOunsignedsPintgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) pair<unsigned int,unsigned int>[nElements] : new pair<unsigned int,unsigned int>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_pairlEunsignedsPintcOunsignedsPintgR(void *p) {
+      delete ((pair<unsigned int,unsigned int>*)p);
+   }
+   static void deleteArray_pairlEunsignedsPintcOunsignedsPintgR(void *p) {
+      delete [] ((pair<unsigned int,unsigned int>*)p);
+   }
+   static void destruct_pairlEunsignedsPintcOunsignedsPintgR(void *p) {
+      typedef pair<unsigned int,unsigned int> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class pair<unsigned int,unsigned int>
+
+namespace mithep {
+//______________________________________________________________________________
 void BaseCollection::Streamer(TBuffer &R__b)
 {
    // Stream an object of class mithep::BaseCollection.
@@ -3429,6 +3449,251 @@ namespace ROOT {
       ((current_t*)p)->~current_t();
    }
 } // end of namespace ROOT for class ::mithep::BaseCollection
+
+namespace mithep {
+//______________________________________________________________________________
+template <> void BitMask<3>::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::BitMask<3>.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::BitMask<3>::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::BitMask<3>::Class(),this);
+   }
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLBitMasklE3gR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<3> : new ::mithep::BitMask<3>;
+   }
+   static void *newArray_mithepcLcLBitMasklE3gR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<3>[nElements] : new ::mithep::BitMask<3>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLBitMasklE3gR(void *p) {
+      delete ((::mithep::BitMask<3>*)p);
+   }
+   static void deleteArray_mithepcLcLBitMasklE3gR(void *p) {
+      delete [] ((::mithep::BitMask<3>*)p);
+   }
+   static void destruct_mithepcLcLBitMasklE3gR(void *p) {
+      typedef ::mithep::BitMask<3> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::mithep::BitMask<3>
+
+namespace mithep {
+//______________________________________________________________________________
+template <> void BitMask<6>::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::BitMask<6>.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::BitMask<6>::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::BitMask<6>::Class(),this);
+   }
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLBitMasklE6gR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<6> : new ::mithep::BitMask<6>;
+   }
+   static void *newArray_mithepcLcLBitMasklE6gR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<6>[nElements] : new ::mithep::BitMask<6>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLBitMasklE6gR(void *p) {
+      delete ((::mithep::BitMask<6>*)p);
+   }
+   static void deleteArray_mithepcLcLBitMasklE6gR(void *p) {
+      delete [] ((::mithep::BitMask<6>*)p);
+   }
+   static void destruct_mithepcLcLBitMasklE6gR(void *p) {
+      typedef ::mithep::BitMask<6> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::mithep::BitMask<6>
+
+namespace mithep {
+//______________________________________________________________________________
+template <> void BitMask<16>::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::BitMask<16>.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::BitMask<16>::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::BitMask<16>::Class(),this);
+   }
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLBitMasklE16gR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<16> : new ::mithep::BitMask<16>;
+   }
+   static void *newArray_mithepcLcLBitMasklE16gR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<16>[nElements] : new ::mithep::BitMask<16>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLBitMasklE16gR(void *p) {
+      delete ((::mithep::BitMask<16>*)p);
+   }
+   static void deleteArray_mithepcLcLBitMasklE16gR(void *p) {
+      delete [] ((::mithep::BitMask<16>*)p);
+   }
+   static void destruct_mithepcLcLBitMasklE16gR(void *p) {
+      typedef ::mithep::BitMask<16> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::mithep::BitMask<16>
+
+namespace mithep {
+//______________________________________________________________________________
+template <> void BitMask<32>::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::BitMask<32>.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::BitMask<32>::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::BitMask<32>::Class(),this);
+   }
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLBitMasklE32gR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<32> : new ::mithep::BitMask<32>;
+   }
+   static void *newArray_mithepcLcLBitMasklE32gR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<32>[nElements] : new ::mithep::BitMask<32>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLBitMasklE32gR(void *p) {
+      delete ((::mithep::BitMask<32>*)p);
+   }
+   static void deleteArray_mithepcLcLBitMasklE32gR(void *p) {
+      delete [] ((::mithep::BitMask<32>*)p);
+   }
+   static void destruct_mithepcLcLBitMasklE32gR(void *p) {
+      typedef ::mithep::BitMask<32> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::mithep::BitMask<32>
+
+namespace mithep {
+//______________________________________________________________________________
+template <> void BitMask<128>::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::BitMask<128>.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::BitMask<128>::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::BitMask<128>::Class(),this);
+   }
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLBitMasklE128gR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<128> : new ::mithep::BitMask<128>;
+   }
+   static void *newArray_mithepcLcLBitMasklE128gR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<128>[nElements] : new ::mithep::BitMask<128>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLBitMasklE128gR(void *p) {
+      delete ((::mithep::BitMask<128>*)p);
+   }
+   static void deleteArray_mithepcLcLBitMasklE128gR(void *p) {
+      delete [] ((::mithep::BitMask<128>*)p);
+   }
+   static void destruct_mithepcLcLBitMasklE128gR(void *p) {
+      typedef ::mithep::BitMask<128> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::mithep::BitMask<128>
+
+namespace mithep {
+//______________________________________________________________________________
+template <> void BitMask<8>::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::BitMask<8>.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::BitMask<8>::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::BitMask<8>::Class(),this);
+   }
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLBitMasklE8gR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<8> : new ::mithep::BitMask<8>;
+   }
+   static void *newArray_mithepcLcLBitMasklE8gR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<8>[nElements] : new ::mithep::BitMask<8>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLBitMasklE8gR(void *p) {
+      delete ((::mithep::BitMask<8>*)p);
+   }
+   static void deleteArray_mithepcLcLBitMasklE8gR(void *p) {
+      delete [] ((::mithep::BitMask<8>*)p);
+   }
+   static void destruct_mithepcLcLBitMasklE8gR(void *p) {
+      typedef ::mithep::BitMask<8> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::mithep::BitMask<8>
+
+namespace mithep {
+//______________________________________________________________________________
+template <> void BitMask<2>::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::BitMask<2>.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::BitMask<2>::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::BitMask<2>::Class(),this);
+   }
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLBitMasklE2gR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<2> : new ::mithep::BitMask<2>;
+   }
+   static void *newArray_mithepcLcLBitMasklE2gR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<2>[nElements] : new ::mithep::BitMask<2>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLBitMasklE2gR(void *p) {
+      delete ((::mithep::BitMask<2>*)p);
+   }
+   static void deleteArray_mithepcLcLBitMasklE2gR(void *p) {
+      delete [] ((::mithep::BitMask<2>*)p);
+   }
+   static void destruct_mithepcLcLBitMasklE2gR(void *p) {
+      typedef ::mithep::BitMask<2> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::mithep::BitMask<2>
 
 namespace mithep {
 //______________________________________________________________________________
@@ -3537,41 +3802,6 @@ namespace ROOT {
 
 namespace mithep {
 //______________________________________________________________________________
-template <> void BitMask<6>::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::BitMask<6>.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::BitMask<6>::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::BitMask<6>::Class(),this);
-   }
-}
-
-} // namespace mithep
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLBitMasklE6gR(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<6> : new ::mithep::BitMask<6>;
-   }
-   static void *newArray_mithepcLcLBitMasklE6gR(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<6>[nElements] : new ::mithep::BitMask<6>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLBitMasklE6gR(void *p) {
-      delete ((::mithep::BitMask<6>*)p);
-   }
-   static void deleteArray_mithepcLcLBitMasklE6gR(void *p) {
-      delete [] ((::mithep::BitMask<6>*)p);
-   }
-   static void destruct_mithepcLcLBitMasklE6gR(void *p) {
-      typedef ::mithep::BitMask<6> current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::mithep::BitMask<6>
-
-namespace mithep {
-//______________________________________________________________________________
 template <> void BitMaskT<ULong64_t>::Streamer(TBuffer &R__b)
 {
    // Stream an object of class mithep::BitMaskT<ULong64_t>.
@@ -3607,316 +3837,31 @@ namespace ROOT {
 
 namespace mithep {
 //______________________________________________________________________________
-template <> void BitMask<2>::Streamer(TBuffer &R__b)
+template <> void Collection<TObject>::Streamer(TBuffer &R__b)
 {
-   // Stream an object of class mithep::BitMask<2>.
+   // Stream an object of class mithep::Collection<TObject>.
 
    if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::BitMask<2>::Class(),this);
+      R__b.ReadClassBuffer(mithep::Collection<TObject>::Class(),this);
    } else {
-      R__b.WriteClassBuffer(mithep::BitMask<2>::Class(),this);
-   }
-}
-
-} // namespace mithep
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLBitMasklE2gR(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<2> : new ::mithep::BitMask<2>;
-   }
-   static void *newArray_mithepcLcLBitMasklE2gR(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<2>[nElements] : new ::mithep::BitMask<2>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLBitMasklE2gR(void *p) {
-      delete ((::mithep::BitMask<2>*)p);
-   }
-   static void deleteArray_mithepcLcLBitMasklE2gR(void *p) {
-      delete [] ((::mithep::BitMask<2>*)p);
-   }
-   static void destruct_mithepcLcLBitMasklE2gR(void *p) {
-      typedef ::mithep::BitMask<2> current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::mithep::BitMask<2>
-
-namespace mithep {
-//______________________________________________________________________________
-template <> void BitMask<3>::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::BitMask<3>.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::BitMask<3>::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::BitMask<3>::Class(),this);
-   }
-}
-
-} // namespace mithep
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLBitMasklE3gR(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<3> : new ::mithep::BitMask<3>;
-   }
-   static void *newArray_mithepcLcLBitMasklE3gR(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<3>[nElements] : new ::mithep::BitMask<3>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLBitMasklE3gR(void *p) {
-      delete ((::mithep::BitMask<3>*)p);
-   }
-   static void deleteArray_mithepcLcLBitMasklE3gR(void *p) {
-      delete [] ((::mithep::BitMask<3>*)p);
-   }
-   static void destruct_mithepcLcLBitMasklE3gR(void *p) {
-      typedef ::mithep::BitMask<3> current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::mithep::BitMask<3>
-
-namespace mithep {
-//______________________________________________________________________________
-template <> void BitMask<8>::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::BitMask<8>.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::BitMask<8>::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::BitMask<8>::Class(),this);
-   }
-}
-
-} // namespace mithep
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLBitMasklE8gR(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<8> : new ::mithep::BitMask<8>;
-   }
-   static void *newArray_mithepcLcLBitMasklE8gR(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<8>[nElements] : new ::mithep::BitMask<8>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLBitMasklE8gR(void *p) {
-      delete ((::mithep::BitMask<8>*)p);
-   }
-   static void deleteArray_mithepcLcLBitMasklE8gR(void *p) {
-      delete [] ((::mithep::BitMask<8>*)p);
-   }
-   static void destruct_mithepcLcLBitMasklE8gR(void *p) {
-      typedef ::mithep::BitMask<8> current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::mithep::BitMask<8>
-
-namespace mithep {
-//______________________________________________________________________________
-template <> void BitMask<16>::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::BitMask<16>.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::BitMask<16>::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::BitMask<16>::Class(),this);
-   }
-}
-
-} // namespace mithep
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLBitMasklE16gR(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<16> : new ::mithep::BitMask<16>;
-   }
-   static void *newArray_mithepcLcLBitMasklE16gR(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<16>[nElements] : new ::mithep::BitMask<16>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLBitMasklE16gR(void *p) {
-      delete ((::mithep::BitMask<16>*)p);
-   }
-   static void deleteArray_mithepcLcLBitMasklE16gR(void *p) {
-      delete [] ((::mithep::BitMask<16>*)p);
-   }
-   static void destruct_mithepcLcLBitMasklE16gR(void *p) {
-      typedef ::mithep::BitMask<16> current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::mithep::BitMask<16>
-
-namespace mithep {
-//______________________________________________________________________________
-template <> void BitMask<32>::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::BitMask<32>.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::BitMask<32>::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::BitMask<32>::Class(),this);
-   }
-}
-
-} // namespace mithep
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLBitMasklE32gR(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<32> : new ::mithep::BitMask<32>;
-   }
-   static void *newArray_mithepcLcLBitMasklE32gR(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<32>[nElements] : new ::mithep::BitMask<32>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLBitMasklE32gR(void *p) {
-      delete ((::mithep::BitMask<32>*)p);
-   }
-   static void deleteArray_mithepcLcLBitMasklE32gR(void *p) {
-      delete [] ((::mithep::BitMask<32>*)p);
-   }
-   static void destruct_mithepcLcLBitMasklE32gR(void *p) {
-      typedef ::mithep::BitMask<32> current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::mithep::BitMask<32>
-
-namespace mithep {
-//______________________________________________________________________________
-template <> void BitMask<128>::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::BitMask<128>.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::BitMask<128>::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::BitMask<128>::Class(),this);
-   }
-}
-
-} // namespace mithep
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLBitMasklE128gR(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<128> : new ::mithep::BitMask<128>;
-   }
-   static void *newArray_mithepcLcLBitMasklE128gR(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::BitMask<128>[nElements] : new ::mithep::BitMask<128>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLBitMasklE128gR(void *p) {
-      delete ((::mithep::BitMask<128>*)p);
-   }
-   static void deleteArray_mithepcLcLBitMasklE128gR(void *p) {
-      delete [] ((::mithep::BitMask<128>*)p);
-   }
-   static void destruct_mithepcLcLBitMasklE128gR(void *p) {
-      typedef ::mithep::BitMask<128> current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::mithep::BitMask<128>
-
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLCacheFlag(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::CacheFlag : new ::mithep::CacheFlag;
-   }
-   static void *newArray_mithepcLcLCacheFlag(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::CacheFlag[nElements] : new ::mithep::CacheFlag[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLCacheFlag(void *p) {
-      delete ((::mithep::CacheFlag*)p);
-   }
-   static void deleteArray_mithepcLcLCacheFlag(void *p) {
-      delete [] ((::mithep::CacheFlag*)p);
-   }
-   static void destruct_mithepcLcLCacheFlag(void *p) {
-      typedef ::mithep::CacheFlag current_t;
-      ((current_t*)p)->~current_t();
-   }
-   // Wrapper around a custom streamer member function.
-   static void streamer_mithepcLcLCacheFlag(TBuffer &buf, void *obj) {
-      ((::mithep::CacheFlag*)obj)->::mithep::CacheFlag::Streamer(buf);
-   }
-} // end of namespace ROOT for class ::mithep::CacheFlag
-
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLProcIDRef(void *p) {
-      return  p ? new(p) ::mithep::ProcIDRef : new ::mithep::ProcIDRef;
-   }
-   static void *newArray_mithepcLcLProcIDRef(Long_t nElements, void *p) {
-      return p ? new(p) ::mithep::ProcIDRef[nElements] : new ::mithep::ProcIDRef[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLProcIDRef(void *p) {
-      delete ((::mithep::ProcIDRef*)p);
-   }
-   static void deleteArray_mithepcLcLProcIDRef(void *p) {
-      delete [] ((::mithep::ProcIDRef*)p);
-   }
-   static void destruct_mithepcLcLProcIDRef(void *p) {
-      typedef ::mithep::ProcIDRef current_t;
-      ((current_t*)p)->~current_t();
-   }
-   // Wrapper around a custom streamer member function.
-   static void streamer_mithepcLcLProcIDRef(TBuffer &buf, void *obj) {
-      ((::mithep::ProcIDRef*)obj)->::mithep::ProcIDRef::Streamer(buf);
-   }
-} // end of namespace ROOT for class ::mithep::ProcIDRef
-
-namespace mithep {
-//______________________________________________________________________________
-template <> void Collection<mithep::ProcIDRef>::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::Collection<mithep::ProcIDRef>.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::Collection<mithep::ProcIDRef>::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::Collection<mithep::ProcIDRef>::Class(),this);
+      R__b.WriteClassBuffer(mithep::Collection<TObject>::Class(),this);
    }
 }
 
 } // namespace mithep
 namespace ROOT {
    // Wrapper around operator delete
-   static void delete_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p) {
-      delete ((::mithep::Collection<mithep::ProcIDRef>*)p);
+   static void delete_mithepcLcLCollectionlETObjectgR(void *p) {
+      delete ((::mithep::Collection<TObject>*)p);
    }
-   static void deleteArray_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p) {
-      delete [] ((::mithep::Collection<mithep::ProcIDRef>*)p);
+   static void deleteArray_mithepcLcLCollectionlETObjectgR(void *p) {
+      delete [] ((::mithep::Collection<TObject>*)p);
    }
-   static void destruct_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p) {
-      typedef ::mithep::Collection<mithep::ProcIDRef> current_t;
+   static void destruct_mithepcLcLCollectionlETObjectgR(void *p) {
+      typedef ::mithep::Collection<TObject> current_t;
       ((current_t*)p)->~current_t();
    }
-} // end of namespace ROOT for class ::mithep::Collection<mithep::ProcIDRef>
-
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p) {
-      return  p ? new(p) ::mithep::FastArray<mithep::ProcIDRef> : new ::mithep::FastArray<mithep::ProcIDRef>;
-   }
-   static void *newArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(Long_t nElements, void *p) {
-      return p ? new(p) ::mithep::FastArray<mithep::ProcIDRef>[nElements] : new ::mithep::FastArray<mithep::ProcIDRef>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p) {
-      delete ((::mithep::FastArray<mithep::ProcIDRef>*)p);
-   }
-   static void deleteArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p) {
-      delete [] ((::mithep::FastArray<mithep::ProcIDRef>*)p);
-   }
-   static void destruct_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p) {
-      typedef ::mithep::FastArray<mithep::ProcIDRef> current_t;
-      ((current_t*)p)->~current_t();
-   }
-   // Wrapper around a custom streamer member function.
-   static void streamer_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(TBuffer &buf, void *obj) {
-      ((::mithep::FastArray<mithep::ProcIDRef>*)obj)->::mithep::FastArray<mithep::ProcIDRef>::Streamer(buf);
-   }
-} // end of namespace ROOT for class ::mithep::FastArray<mithep::ProcIDRef>
+} // end of namespace ROOT for class ::mithep::Collection<TObject>
 
 namespace mithep {
 //______________________________________________________________________________
@@ -3946,30 +3891,33 @@ namespace ROOT {
    }
 } // end of namespace ROOT for class ::mithep::Collection<TObjString>
 
+namespace mithep {
+//______________________________________________________________________________
+template <> void Collection<mithep::ProcIDRef>::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::Collection<mithep::ProcIDRef>.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::Collection<mithep::ProcIDRef>::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::Collection<mithep::ProcIDRef>::Class(),this);
+   }
+}
+
+} // namespace mithep
 namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLFastArraylETObjStringgR(void *p) {
-      return  p ? new(p) ::mithep::FastArray<TObjString> : new ::mithep::FastArray<TObjString>;
-   }
-   static void *newArray_mithepcLcLFastArraylETObjStringgR(Long_t nElements, void *p) {
-      return p ? new(p) ::mithep::FastArray<TObjString>[nElements] : new ::mithep::FastArray<TObjString>[nElements];
-   }
    // Wrapper around operator delete
-   static void delete_mithepcLcLFastArraylETObjStringgR(void *p) {
-      delete ((::mithep::FastArray<TObjString>*)p);
+   static void delete_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p) {
+      delete ((::mithep::Collection<mithep::ProcIDRef>*)p);
    }
-   static void deleteArray_mithepcLcLFastArraylETObjStringgR(void *p) {
-      delete [] ((::mithep::FastArray<TObjString>*)p);
+   static void deleteArray_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p) {
+      delete [] ((::mithep::Collection<mithep::ProcIDRef>*)p);
    }
-   static void destruct_mithepcLcLFastArraylETObjStringgR(void *p) {
-      typedef ::mithep::FastArray<TObjString> current_t;
+   static void destruct_mithepcLcLCollectionlEmithepcLcLProcIDRefgR(void *p) {
+      typedef ::mithep::Collection<mithep::ProcIDRef> current_t;
       ((current_t*)p)->~current_t();
    }
-   // Wrapper around a custom streamer member function.
-   static void streamer_mithepcLcLFastArraylETObjStringgR(TBuffer &buf, void *obj) {
-      ((::mithep::FastArray<TObjString>*)obj)->::mithep::FastArray<TObjString>::Streamer(buf);
-   }
-} // end of namespace ROOT for class ::mithep::FastArray<TObjString>
+} // end of namespace ROOT for class ::mithep::Collection<mithep::ProcIDRef>
 
 namespace ROOT {
    // Wrappers around operator new
@@ -4421,33 +4369,80 @@ namespace ROOT {
    }
 } // end of namespace ROOT for class ::mithep::NamedFastArrayBasic<bool,false>
 
-namespace mithep {
-//______________________________________________________________________________
-template <> void Collection<TObject>::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::Collection<TObject>.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::Collection<TObject>::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::Collection<TObject>::Class(),this);
-   }
-}
-
-} // namespace mithep
 namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLFastArraylETObjStringgR(void *p) {
+      return  p ? new(p) ::mithep::FastArray<TObjString> : new ::mithep::FastArray<TObjString>;
+   }
+   static void *newArray_mithepcLcLFastArraylETObjStringgR(Long_t nElements, void *p) {
+      return p ? new(p) ::mithep::FastArray<TObjString>[nElements] : new ::mithep::FastArray<TObjString>[nElements];
+   }
    // Wrapper around operator delete
-   static void delete_mithepcLcLCollectionlETObjectgR(void *p) {
-      delete ((::mithep::Collection<TObject>*)p);
+   static void delete_mithepcLcLFastArraylETObjStringgR(void *p) {
+      delete ((::mithep::FastArray<TObjString>*)p);
    }
-   static void deleteArray_mithepcLcLCollectionlETObjectgR(void *p) {
-      delete [] ((::mithep::Collection<TObject>*)p);
+   static void deleteArray_mithepcLcLFastArraylETObjStringgR(void *p) {
+      delete [] ((::mithep::FastArray<TObjString>*)p);
    }
-   static void destruct_mithepcLcLCollectionlETObjectgR(void *p) {
-      typedef ::mithep::Collection<TObject> current_t;
+   static void destruct_mithepcLcLFastArraylETObjStringgR(void *p) {
+      typedef ::mithep::FastArray<TObjString> current_t;
       ((current_t*)p)->~current_t();
    }
-} // end of namespace ROOT for class ::mithep::Collection<TObject>
+   // Wrapper around a custom streamer member function.
+   static void streamer_mithepcLcLFastArraylETObjStringgR(TBuffer &buf, void *obj) {
+      ((::mithep::FastArray<TObjString>*)obj)->::mithep::FastArray<TObjString>::Streamer(buf);
+   }
+} // end of namespace ROOT for class ::mithep::FastArray<TObjString>
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p) {
+      return  p ? new(p) ::mithep::FastArray<mithep::ProcIDRef> : new ::mithep::FastArray<mithep::ProcIDRef>;
+   }
+   static void *newArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(Long_t nElements, void *p) {
+      return p ? new(p) ::mithep::FastArray<mithep::ProcIDRef>[nElements] : new ::mithep::FastArray<mithep::ProcIDRef>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p) {
+      delete ((::mithep::FastArray<mithep::ProcIDRef>*)p);
+   }
+   static void deleteArray_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p) {
+      delete [] ((::mithep::FastArray<mithep::ProcIDRef>*)p);
+   }
+   static void destruct_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(void *p) {
+      typedef ::mithep::FastArray<mithep::ProcIDRef> current_t;
+      ((current_t*)p)->~current_t();
+   }
+   // Wrapper around a custom streamer member function.
+   static void streamer_mithepcLcLFastArraylEmithepcLcLProcIDRefgR(TBuffer &buf, void *obj) {
+      ((::mithep::FastArray<mithep::ProcIDRef>*)obj)->::mithep::FastArray<mithep::ProcIDRef>::Streamer(buf);
+   }
+} // end of namespace ROOT for class ::mithep::FastArray<mithep::ProcIDRef>
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLCacheFlag(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::CacheFlag : new ::mithep::CacheFlag;
+   }
+   static void *newArray_mithepcLcLCacheFlag(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::mithep::CacheFlag[nElements] : new ::mithep::CacheFlag[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLCacheFlag(void *p) {
+      delete ((::mithep::CacheFlag*)p);
+   }
+   static void deleteArray_mithepcLcLCacheFlag(void *p) {
+      delete [] ((::mithep::CacheFlag*)p);
+   }
+   static void destruct_mithepcLcLCacheFlag(void *p) {
+      typedef ::mithep::CacheFlag current_t;
+      ((current_t*)p)->~current_t();
+   }
+   // Wrapper around a custom streamer member function.
+   static void streamer_mithepcLcLCacheFlag(TBuffer &buf, void *obj) {
+      ((::mithep::CacheFlag*)obj)->::mithep::CacheFlag::Streamer(buf);
+   }
+} // end of namespace ROOT for class ::mithep::CacheFlag
 
 namespace mithep {
 //______________________________________________________________________________
@@ -4486,59 +4481,28 @@ namespace ROOT {
 
 namespace ROOT {
    // Wrappers around operator new
-   static void *new_pairlEunsignedsPintcOunsignedsPintgR(void *p) {
-      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) pair<unsigned int,unsigned int> : new pair<unsigned int,unsigned int>;
+   static void *new_mithepcLcLProcIDRef(void *p) {
+      return  p ? new(p) ::mithep::ProcIDRef : new ::mithep::ProcIDRef;
    }
-   static void *newArray_pairlEunsignedsPintcOunsignedsPintgR(Long_t nElements, void *p) {
-      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) pair<unsigned int,unsigned int>[nElements] : new pair<unsigned int,unsigned int>[nElements];
-   }
-   // Wrapper around operator delete
-   static void delete_pairlEunsignedsPintcOunsignedsPintgR(void *p) {
-      delete ((pair<unsigned int,unsigned int>*)p);
-   }
-   static void deleteArray_pairlEunsignedsPintcOunsignedsPintgR(void *p) {
-      delete [] ((pair<unsigned int,unsigned int>*)p);
-   }
-   static void destruct_pairlEunsignedsPintcOunsignedsPintgR(void *p) {
-      typedef pair<unsigned int,unsigned int> current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class pair<unsigned int,unsigned int>
-
-namespace mithep {
-//______________________________________________________________________________
-void RunLumiRangeMap::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class mithep::RunLumiRangeMap.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(mithep::RunLumiRangeMap::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(mithep::RunLumiRangeMap::Class(),this);
-   }
-}
-
-} // namespace mithep
-namespace ROOT {
-   // Wrappers around operator new
-   static void *new_mithepcLcLRunLumiRangeMap(void *p) {
-      return  p ? new(p) ::mithep::RunLumiRangeMap : new ::mithep::RunLumiRangeMap;
-   }
-   static void *newArray_mithepcLcLRunLumiRangeMap(Long_t nElements, void *p) {
-      return p ? new(p) ::mithep::RunLumiRangeMap[nElements] : new ::mithep::RunLumiRangeMap[nElements];
+   static void *newArray_mithepcLcLProcIDRef(Long_t nElements, void *p) {
+      return p ? new(p) ::mithep::ProcIDRef[nElements] : new ::mithep::ProcIDRef[nElements];
    }
    // Wrapper around operator delete
-   static void delete_mithepcLcLRunLumiRangeMap(void *p) {
-      delete ((::mithep::RunLumiRangeMap*)p);
+   static void delete_mithepcLcLProcIDRef(void *p) {
+      delete ((::mithep::ProcIDRef*)p);
    }
-   static void deleteArray_mithepcLcLRunLumiRangeMap(void *p) {
-      delete [] ((::mithep::RunLumiRangeMap*)p);
+   static void deleteArray_mithepcLcLProcIDRef(void *p) {
+      delete [] ((::mithep::ProcIDRef*)p);
    }
-   static void destruct_mithepcLcLRunLumiRangeMap(void *p) {
-      typedef ::mithep::RunLumiRangeMap current_t;
+   static void destruct_mithepcLcLProcIDRef(void *p) {
+      typedef ::mithep::ProcIDRef current_t;
       ((current_t*)p)->~current_t();
    }
-} // end of namespace ROOT for class ::mithep::RunLumiRangeMap
+   // Wrapper around a custom streamer member function.
+   static void streamer_mithepcLcLProcIDRef(TBuffer &buf, void *obj) {
+      ((::mithep::ProcIDRef*)obj)->::mithep::ProcIDRef::Streamer(buf);
+   }
+} // end of namespace ROOT for class ::mithep::ProcIDRef
 
 namespace mithep {
 //______________________________________________________________________________
@@ -4578,6 +4542,41 @@ namespace ROOT {
       return ((::mithep::RunLumiSet*)obj)->Merge(coll);
    }
 } // end of namespace ROOT for class ::mithep::RunLumiSet
+
+namespace mithep {
+//______________________________________________________________________________
+void RunLumiRangeMap::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class mithep::RunLumiRangeMap.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(mithep::RunLumiRangeMap::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(mithep::RunLumiRangeMap::Class(),this);
+   }
+}
+
+} // namespace mithep
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_mithepcLcLRunLumiRangeMap(void *p) {
+      return  p ? new(p) ::mithep::RunLumiRangeMap : new ::mithep::RunLumiRangeMap;
+   }
+   static void *newArray_mithepcLcLRunLumiRangeMap(Long_t nElements, void *p) {
+      return p ? new(p) ::mithep::RunLumiRangeMap[nElements] : new ::mithep::RunLumiRangeMap[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_mithepcLcLRunLumiRangeMap(void *p) {
+      delete ((::mithep::RunLumiRangeMap*)p);
+   }
+   static void deleteArray_mithepcLcLRunLumiRangeMap(void *p) {
+      delete [] ((::mithep::RunLumiRangeMap*)p);
+   }
+   static void destruct_mithepcLcLRunLumiRangeMap(void *p) {
+      typedef ::mithep::RunLumiRangeMap current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::mithep::RunLumiRangeMap
 
 namespace ROOT {
    static TClass *vectorlEpairlEunsignedsPintcOunsignedsPintgRsPgR_Dictionary();
@@ -4786,10 +4785,10 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/afs/cern.ch/user/c/ceballos/releases/CMSSW_8_0_26_patch1/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/external/boost/1.57.0-ikhhed2/include",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed6/include",
-"/afs/cern.ch/user/c/ceballos/releases/CMSSW_8_0_26_patch1/src/",
+"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/external/boost/1.63.0-mlhled2/include",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.08.07/include",
+"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
@@ -4798,49 +4797,49 @@ namespace {
 #pragma clang diagnostic ignored "-Wignored-attributes"
 #pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
 extern int __Cling_Autoloading_Map;
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Base class of all our collections)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  BaseCollection;}
-namespace mithep{template <class T> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  BitMaskT;
+namespace std{template <class _T1, class _T2> struct __attribute__((annotate("$clingAutoload$bits/stl_pair.h")))  __attribute__((annotate("$clingAutoload$string")))  pair;
 }
-namespace mithep{template <UInt_t N> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  BitMask;
+namespace std{template <typename _Tp = void> struct __attribute__((annotate("$clingAutoload$bits/stl_function.h")))  __attribute__((annotate("$clingAutoload$string")))  less;
 }
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Implementation of a transient Bool_t container)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  CacheFlag;}
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Implementation of our own TProcIDRef)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  ProcIDRef;}
-namespace mithep{template <class ArrayElement> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  Collection;
+namespace std{template <typename _Tp> class __attribute__((annotate("$clingAutoload$bits/allocator.h")))  __attribute__((annotate("$clingAutoload$string")))  allocator;
 }
-namespace mithep{template <class ArrayElement> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  FastArray;
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Base class of all our collections)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/BaseCollection.h")))  BaseCollection;}
+namespace mithep{template <UInt_t N> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/BitMask.h")))  BitMask;
 }
-class __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  TObjString;
+namespace mithep{template <class T> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/BitMask.h")))  BitMaskT;
+}
 class __attribute__((annotate("$clingAutoload$TObject.h")))  TObject;
-namespace mithep{template <class ArrayElement> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  ObjArray;
+namespace mithep{template <class ArrayElement> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Collection.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h")))  Collection;
 }
-namespace std{template <class _T1, class _T2> struct __attribute__((annotate("$clingAutoload$string")))  pair;
+class __attribute__((annotate("$clingAutoload$TObjString.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/BaseCollection.h")))  TObjString;
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Implementation of our own TProcIDRef)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/ProcIDRef.h")))  ProcIDRef;}
+namespace mithep{template <class ArrayElement> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/FastArray.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h")))  FastArray;
 }
-namespace std{template <typename _Tp> struct __attribute__((annotate("$clingAutoload$string")))  less;
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Implementation of a transient Bool_t container)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h")))  CacheFlag;}
+namespace mithep{template <class ArrayElement> class __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/ObjArray.h")))  ObjArray;
 }
-namespace std{template <typename _Tp> class __attribute__((annotate("$clingAutoload$string")))  allocator;
-}
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Base class of all our collections)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  RunLumiRangeMap;}
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Base class of all our collections)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h")))  RunLumiSet;}
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Base class of all our collections)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/RunLumiSet.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/RunLumiRangeMap.h")))  RunLumiSet;}
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Base class of all our collections)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/RunLumiRangeMap.h")))  RunLumiRangeMap;}
 typedef unsigned char UChar_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace mithep{typedef BitMaskT<UChar_t> BitMask8 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
+namespace mithep{typedef BitMaskT<UChar_t> BitMask8 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
 typedef unsigned short UShort_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace mithep{typedef BitMaskT<UShort_t> BitMask16 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
+namespace mithep{typedef BitMaskT<UShort_t> BitMask16 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
 typedef unsigned int UInt_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace mithep{typedef BitMaskT<UInt_t> BitMask32 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
-namespace mithep{typedef BitMask<3> BitMask24 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
-namespace mithep{typedef BitMask<6> BitMask48 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
+namespace mithep{typedef BitMaskT<UInt_t> BitMask32 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
+namespace mithep{typedef BitMask<3> BitMask24 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
+namespace mithep{typedef BitMask<6> BitMask48 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
 typedef unsigned long long ULong64_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace mithep{typedef BitMaskT<ULong64_t> BitMask64 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
-namespace mithep{typedef BitMask<16> BitMask128 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
-namespace mithep{typedef BitMask<32> BitMask256 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
-namespace mithep{typedef BitMask<128> BitMask1024 __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
+namespace mithep{typedef BitMaskT<ULong64_t> BitMask64 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
+namespace mithep{typedef BitMask<16> BitMask128 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
+namespace mithep{typedef BitMask<32> BitMask256 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
+namespace mithep{typedef BitMask<128> BitMask1024 __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
 typedef double Double_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
 typedef double Double32_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
 typedef int Int_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
 typedef short Short_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
 typedef char Char_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
 typedef bool Bool_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace mithep{typedef FastArray<TObjString> FArrObjString __attribute__((annotate("$clingAutoload$MitAna/DataCont/dict/MitAnaDataContLinkDef.h"))) ;}
+namespace mithep{typedef FastArray<TObjString> FArrObjString __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/Types.h")))  __attribute__((annotate("$clingAutoload$MitAna/DataCont/interface/CacheFlag.h"))) ;}
 )DICTFWDDCLS";
     static const char* payloadCode = R"DICTPAYLOAD(
 #line 1 "MitAnaDataCont_LinkDefDict dictionary payload"

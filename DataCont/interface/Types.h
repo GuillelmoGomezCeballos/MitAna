@@ -10,6 +10,7 @@
 #define MITANA_DATACONT_TYPES_H
  
 #include <Rtypes.h>
+#include "TBuffer.h"
 #include "MitAna/DataFormats/interface/Types.h"
 #include "MitAna/DataCont/interface/BitMask.h"
 #include "MitAna/DataCont/interface/FastArrayBasic.h"

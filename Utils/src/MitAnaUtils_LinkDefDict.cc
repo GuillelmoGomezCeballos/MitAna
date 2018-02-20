@@ -1,12 +1,11 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIafsdIcerndOchdIuserdIcdIceballosdIreleasesdICMSSW_8_0_26_patch1dItmpdIslc6_amd64_gcc530dIMitAnaUtils_LinkDefDict
+#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI048dICMSSW_9_2_12dItmpdIslc6_amd64_gcc530dIMitAnaUtils_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <string.h>
 #include <assert.h>
 #define G__DICTIONARY
@@ -279,9 +278,9 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/afs/cern.ch/user/c/ceballos/releases/CMSSW_8_0_26_patch1/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed6/include",
-"/afs/cern.ch/user/c/ceballos/releases/CMSSW_8_0_26_patch1/src/",
+"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.08.07/include",
+"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
@@ -290,7 +289,7 @@ namespace {
 #pragma clang diagnostic ignored "-Wignored-attributes"
 #pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
 extern int __Cling_Autoloading_Map;
-namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Simple table to keep numbers)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/Utils/dict/MitAnaUtilsLinkDef.h")))  SimpleTable;}
+namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Simple table to keep numbers)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$MitAna/Utils/interface/SimpleTable.h")))  SimpleTable;}
 )DICTFWDDCLS";
     static const char* payloadCode = R"DICTPAYLOAD(
 #line 1 "MitAnaUtils_LinkDefDict dictionary payload"

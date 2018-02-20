@@ -17,6 +17,7 @@
 #define MITANA_DATACONT_STACKARRAYBASIC_H
 
 #include <TObject.h>
+#include "TBuffer.h"
 #include "MitAna/DataCont/interface/BaseCollection.h"
 
 namespace mithep 

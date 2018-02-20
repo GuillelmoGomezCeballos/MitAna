@@ -12,6 +12,7 @@
 
 #include <TObject.h>
 #include <TProcessID.h>
+#include "TBuffer.h"
 
 namespace mithep 
 {
