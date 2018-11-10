@@ -1,6 +1,6 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI048dICMSSW_9_2_12dItmpdIslc6_amd64_gcc530dIMitAnaUtils_LinkDefDict
+#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI050dICMSSW_9_4_6dItmpdIslc6_amd64_gcc630dIMitAnaUtils_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
@@ -38,6 +38,7 @@ namespace std {} using namespace std;
 
 // Header files passed as explicit arguments
 #include "MitAna/Utils/interface/SimpleTable.h"
+#include "MitAna/Utils/interface/SimpleTable.h"
 
 // Header files passed via #pragma extra_include
 
@@ -56,9 +57,9 @@ namespace mithep {
          return &instance;
       }
       // Insure that the inline function is _not_ optimized away by the compiler
-      ::ROOT::TGenericClassInfo *(*_R__UNIQUE_(InitFunctionKeeper))() = &GenerateInitInstance;  
+      ::ROOT::TGenericClassInfo *(*_R__UNIQUE_DICT_(InitFunctionKeeper))() = &GenerateInitInstance;  
       // Static variable to force the class initialization
-      static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstance(); R__UseDummy(_R__UNIQUE_(Init));
+      static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstance(); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
       // Dictionary for non-ClassDef classes
       static TClass *mithep_Dictionary() {
@@ -93,7 +94,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::SimpleTable*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::SimpleTable*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::SimpleTable*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -127,7 +128,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::SimpleTable::MyParameter*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::SimpleTable::MyParameter*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::SimpleTable::MyParameter*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace mithep {
@@ -278,9 +279,9 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.08.07/include",
-"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src/",
+"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc630/lcg/root/6.10.08-elfike/include",
+"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
@@ -300,6 +301,20 @@ namespace mithep{class __attribute__((annotate(R"ATTRDUMP(Simple table to keep n
 
 #define _BACKWARD_BACKWARD_WARNING_H
 #include "MitAna/Utils/interface/SimpleTable.h"
+#include "MitAna/Utils/interface/SimpleTable.h"
+
+#ifdef __CLING__
+#pragma link off all globals;
+#pragma link off all classes;
+#pragma link off all functions;
+#pragma link C++ nestedclass;
+#pragma link C++ nestedtypedef;
+#pragma link C++ namespace mithep;
+
+#pragma link C++ class mithep::SimpleTable+;
+#pragma link C++ class mithep::SimpleTable::MyParameter+;
+
+#endif
 
 #undef  _BACKWARD_BACKWARD_WARNING_H
 )DICTPAYLOAD";

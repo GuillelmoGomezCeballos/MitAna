@@ -1,6 +1,6 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI048dICMSSW_9_2_12dItmpdIslc6_amd64_gcc530dIMitAnaDataFormats_LinkDefDict
+#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI050dICMSSW_9_4_6dItmpdIslc6_amd64_gcc630dIMitAnaDataFormats_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
@@ -44,6 +44,13 @@ namespace std {} using namespace std;
 #include "MitAna/DataFormats/interface/Vect3.h"
 #include "MitAna/DataFormats/interface/Vect3C.h"
 #include "MitAna/DataFormats/interface/Vect4M.h"
+#include "MitAna/DataFormats/interface/Hist1DRat.h"
+#include "MitAna/DataFormats/interface/TH2DAsymErr.h"
+#include "MitAna/DataFormats/interface/TH3DAsymErr.h"
+#include "MitAna/DataFormats/interface/Types.h"
+#include "MitAna/DataFormats/interface/Vect3.h"
+#include "MitAna/DataFormats/interface/Vect3C.h"
+#include "MitAna/DataFormats/interface/Vect4M.h"
 
 // Header files passed via #pragma extra_include
 
@@ -62,9 +69,9 @@ namespace mithep {
          return &instance;
       }
       // Insure that the inline function is _not_ optimized away by the compiler
-      ::ROOT::TGenericClassInfo *(*_R__UNIQUE_(InitFunctionKeeper))() = &GenerateInitInstance;  
+      ::ROOT::TGenericClassInfo *(*_R__UNIQUE_DICT_(InitFunctionKeeper))() = &GenerateInitInstance;  
       // Static variable to force the class initialization
-      static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstance(); R__UseDummy(_R__UNIQUE_(Init));
+      static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstance(); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
       // Dictionary for non-ClassDef classes
       static TClass *mithep_Dictionary() {
@@ -105,7 +112,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::Hist1DRat*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Hist1DRat*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::Hist1DRat*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -141,7 +148,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::TH2DAsymErr*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::TH2DAsymErr*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::TH2DAsymErr*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -177,7 +184,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::TH3DAsymErr*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::TH3DAsymErr*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::TH3DAsymErr*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -209,7 +216,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::Vect3*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Vect3*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::Vect3*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -241,7 +248,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::Vect3C*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Vect3C*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::Vect3C*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -273,7 +280,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::Vect4M*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Vect4M*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::Vect4M*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace mithep {
@@ -741,9 +748,9 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.08.07/include",
-"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src/",
+"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc630/lcg/root/6.10.08-elfike/include",
+"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
@@ -788,7 +795,7 @@ namespace mithep{typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiE4D<Doubl
 namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::Cartesian3D<Double32_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVector32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
 namespace mithep{typedef ROOT::Math::DisplacementVector3D<ROOT::Math::CylindricalEta3D<Double32_t>, ROOT::Math::DefaultCoordinateSystemTag> ThreeVectorC32 __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
 typedef unsigned int UInt_t __attribute__((annotate("$clingAutoload$RtypesCore.h"))) ;
-namespace std{template <class _T1, class _T2> struct __attribute__((annotate("$clingAutoload$bits/stl_pair.h")))  __attribute__((annotate("$clingAutoload$string")))  pair;
+namespace std{template <typename _T1, typename _T2> struct __attribute__((annotate("$clingAutoload$bits/stl_pair.h")))  __attribute__((annotate("$clingAutoload$string")))  pair;
 }
 namespace mithep{typedef std::pair<UInt_t, UInt_t> UIntPair __attribute__((annotate("$clingAutoload$MitAna/DataFormats/interface/Types.h"))) ;}
 )DICTFWDDCLS";
@@ -807,6 +814,57 @@ namespace mithep{typedef std::pair<UInt_t, UInt_t> UIntPair __attribute__((annot
 #include "MitAna/DataFormats/interface/Vect3.h"
 #include "MitAna/DataFormats/interface/Vect3C.h"
 #include "MitAna/DataFormats/interface/Vect4M.h"
+// $Id: MitAnaDataFormatsLinkDef.h,v 1.6 2010/01/18 14:32:01 bendavid Exp $
+
+#ifndef MITCOMMON_DATAFORMATS_LINKDEF_H
+#define MITCOMMON_DATAFORMATS_LINKDEF_H
+
+#include "MitAna/DataFormats/interface/Hist1DRat.h"
+#include "MitAna/DataFormats/interface/TH2DAsymErr.h"
+#include "MitAna/DataFormats/interface/TH3DAsymErr.h"
+#include "MitAna/DataFormats/interface/Types.h"
+#include "MitAna/DataFormats/interface/Vect3.h"
+#include "MitAna/DataFormats/interface/Vect3C.h"
+#include "MitAna/DataFormats/interface/Vect4M.h"
+#endif
+
+#ifdef __CLING__
+#pragma link off all globals;
+#pragma link off all classes;
+#pragma link off all functions;
+#pragma link C++ nestedclass;
+#pragma link C++ nestedtypedef;
+#pragma link C++ namespace mithep;
+
+#pragma link C++ typedef mithep::FourVector;
+#pragma link C++ typedef mithep::FourVectorM;
+#pragma link C++ typedef mithep::FourVectorE;
+#pragma link C++ typedef mithep::ThreeVector;
+#pragma link C++ typedef mithep::ThreeVectorC;
+#pragma link C++ typedef mithep::ThreeSymMatrix;
+#pragma link C++ typedef mithep::SevenSymMatrix;
+#pragma link C++ typedef mithep::ThreeMatrix;
+#pragma link C++ typedef mithep::SevenMatrix;
+#pragma link C++ typedef mithep::FourVector32;
+#pragma link C++ typedef mithep::FourVectorM32;
+#pragma link C++ typedef mithep::FourVectorE32;
+#pragma link C++ typedef mithep::ThreeVector32;
+#pragma link C++ typedef mithep::ThreeVectorC32;
+#pragma link C++ typedef mithep::ThreeSymMatrix32;
+#pragma link C++ typedef mithep::SevenSymMatrix32;
+#pragma link C++ typedef mithep::ThreeMatrix32;
+#pragma link C++ typedef mithep::SevenMatrix32;
+#pragma link C++ typedef mithep::UIntPair;
+#pragma link C++ typedef mithep::UIntBounds;
+
+#pragma link C++ class mithep::Hist1DRat+;
+#pragma link C++ class mithep::TH2DAsymErr+;
+#pragma link C++ enum mithep::TH2DAsymErr::EErrType;
+#pragma link C++ class mithep::TH3DAsymErr+;
+#pragma link C++ class mithep::Vect3+;
+#pragma link C++ class mithep::Vect3C+;
+#pragma link C++ class mithep::Vect4M+;
+#endif
 
 #undef  _BACKWARD_BACKWARD_WARNING_H
 )DICTPAYLOAD";

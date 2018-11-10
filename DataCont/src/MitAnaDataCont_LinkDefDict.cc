@@ -1,6 +1,6 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI048dICMSSW_9_2_12dItmpdIslc6_amd64_gcc530dIMitAnaDataCont_LinkDefDict
+#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI050dICMSSW_9_4_6dItmpdIslc6_amd64_gcc630dIMitAnaDataCont_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
@@ -49,6 +49,18 @@ namespace std {} using namespace std;
 #include "MitAna/DataCont/interface/RunLumiSet.h"
 #include "MitAna/DataCont/interface/Types.h"
 #include "TObjString.h"
+#include "MitAna/DataCont/interface/BaseCollection.h"
+#include "MitAna/DataCont/interface/BitMask.h"
+#include "MitAna/DataCont/interface/CacheFlag.h"
+#include "MitAna/DataCont/interface/FastArray.h"
+#include "MitAna/DataCont/interface/FastArrayBasic.h"
+#include "MitAna/DataCont/interface/NamedFastArrayBasic.h"
+#include "MitAna/DataCont/interface/ObjArray.h"
+#include "MitAna/DataCont/interface/ProcIDRef.h"
+#include "MitAna/DataCont/interface/RunLumiRangeMap.h"
+#include "MitAna/DataCont/interface/RunLumiSet.h"
+#include "MitAna/DataCont/interface/Types.h"
+#include "TObjString.h"
 
 // Header files passed via #pragma extra_include
 
@@ -67,9 +79,9 @@ namespace mithep {
          return &instance;
       }
       // Insure that the inline function is _not_ optimized away by the compiler
-      ::ROOT::TGenericClassInfo *(*_R__UNIQUE_(InitFunctionKeeper))() = &GenerateInitInstance;  
+      ::ROOT::TGenericClassInfo *(*_R__UNIQUE_DICT_(InitFunctionKeeper))() = &GenerateInitInstance;  
       // Static variable to force the class initialization
-      static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstance(); R__UseDummy(_R__UNIQUE_(Init));
+      static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstance(); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
       // Dictionary for non-ClassDef classes
       static TClass *mithep_Dictionary() {
@@ -94,7 +106,7 @@ namespace ROOT {
       pair<unsigned int,unsigned int> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(pair<unsigned int,unsigned int>));
       static ::ROOT::TGenericClassInfo 
-         instance("pair<unsigned int,unsigned int>", "string", 96,
+         instance("pair<unsigned int,unsigned int>", "string", 190,
                   typeid(pair<unsigned int,unsigned int>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &pairlEunsignedsPintcOunsignedsPintgR_Dictionary, isa_proxy, 4,
                   sizeof(pair<unsigned int,unsigned int>) );
@@ -108,7 +120,7 @@ namespace ROOT {
       return &instance;
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const pair<unsigned int,unsigned int>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const pair<unsigned int,unsigned int>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *pairlEunsignedsPintcOunsignedsPintgR_Dictionary() {
@@ -147,7 +159,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BaseCollection*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BaseCollection*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BaseCollection*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -181,7 +193,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMask<3>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<3>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<3>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMasklE3gR_Dictionary() {
@@ -226,7 +238,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMask<6>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMasklE6gR_Dictionary() {
@@ -271,7 +283,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMask<16>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<16>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<16>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMasklE16gR_Dictionary() {
@@ -316,7 +328,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMask<32>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<32>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<32>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMasklE32gR_Dictionary() {
@@ -361,7 +373,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMask<128>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<128>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<128>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMasklE128gR_Dictionary() {
@@ -406,7 +418,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMask<8>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMasklE8gR_Dictionary() {
@@ -451,7 +463,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMask<2>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMasklE2gR_Dictionary() {
@@ -498,7 +510,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMaskT<unsigned char>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMaskTlEunsignedsPchargR_Dictionary() {
@@ -545,7 +557,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMaskT<unsigned short>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMaskTlEunsignedsPshortgR_Dictionary() {
@@ -592,7 +604,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMaskT<unsigned int>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMaskTlEunsignedsPintgR_Dictionary() {
@@ -637,7 +649,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::BitMaskT<ULong64_t>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLBitMaskTlEULong64_tgR_Dictionary() {
@@ -678,7 +690,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::Collection<TObject>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLCollectionlETObjectgR_Dictionary() {
@@ -719,7 +731,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::Collection<TObjString>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<TObjString>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<TObjString>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLCollectionlETObjStringgR_Dictionary() {
@@ -760,7 +772,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::Collection<mithep::ProcIDRef>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLCollectionlEmithepcLcLProcIDRefgR_Dictionary() {
@@ -809,7 +821,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArrayBasic<double,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<double,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<double,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEdoublecOfalsegR_Dictionary() {
@@ -854,7 +866,7 @@ namespace ROOT {
       return &instance;
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<Double32_t,true>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<Double32_t,true>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEDouble32_tcOtruegR_Dictionary() {
@@ -903,7 +915,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArrayBasic<int,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<int,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<int,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEintcOfalsegR_Dictionary() {
@@ -952,7 +964,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArrayBasic<unsigned int,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned int,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned int,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEunsignedsPintcOfalsegR_Dictionary() {
@@ -1001,7 +1013,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArrayBasic<short,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<short,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<short,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEshortcOfalsegR_Dictionary() {
@@ -1050,7 +1062,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArrayBasic<unsigned short,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned short,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned short,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEunsignedsPshortcOfalsegR_Dictionary() {
@@ -1099,7 +1111,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArrayBasic<char,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<char,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<char,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEcharcOfalsegR_Dictionary() {
@@ -1148,7 +1160,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArrayBasic<unsigned char,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned char,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned char,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEunsignedsPcharcOfalsegR_Dictionary() {
@@ -1197,7 +1209,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArrayBasic<bool,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<bool,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<bool,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArrayBasiclEboolcOfalsegR_Dictionary() {
@@ -1246,7 +1258,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::NamedFastArrayBasic<double,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<double,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<double,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEdoublecOfalsegR_Dictionary() {
@@ -1291,7 +1303,7 @@ namespace ROOT {
       return &instance;
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<Double32_t,true>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<Double32_t,true>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEDouble32_tcOtruegR_Dictionary() {
@@ -1340,7 +1352,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::NamedFastArrayBasic<int,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<int,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<int,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEintcOfalsegR_Dictionary() {
@@ -1389,7 +1401,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::NamedFastArrayBasic<unsigned int,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned int,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned int,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEunsignedsPintcOfalsegR_Dictionary() {
@@ -1438,7 +1450,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::NamedFastArrayBasic<short,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<short,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<short,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEshortcOfalsegR_Dictionary() {
@@ -1487,7 +1499,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::NamedFastArrayBasic<unsigned short,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned short,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned short,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEunsignedsPshortcOfalsegR_Dictionary() {
@@ -1536,7 +1548,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::NamedFastArrayBasic<char,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<char,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<char,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEcharcOfalsegR_Dictionary() {
@@ -1585,7 +1597,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::NamedFastArrayBasic<unsigned char,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned char,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned char,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEunsignedsPcharcOfalsegR_Dictionary() {
@@ -1634,7 +1646,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::NamedFastArrayBasic<bool,false>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<bool,false>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<bool,false>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLNamedFastArrayBasiclEboolcOfalsegR_Dictionary() {
@@ -1681,7 +1693,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArray<TObjString>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArraylETObjStringgR_Dictionary() {
@@ -1728,7 +1740,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::FastArray<mithep::ProcIDRef>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLFastArraylEmithepcLcLProcIDRefgR_Dictionary() {
@@ -1773,7 +1785,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::CacheFlag*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -1807,7 +1819,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::ObjArray<TObject>*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::ObjArray<TObject>*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::ObjArray<TObject>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *mithepcLcLObjArraylETObjectgR_Dictionary() {
@@ -1852,7 +1864,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::ProcIDRef*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -1886,7 +1898,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::RunLumiSet*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::RunLumiSet*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::RunLumiSet*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -1918,7 +1930,7 @@ namespace ROOT {
       return GenerateInitInstanceLocal((::mithep::RunLumiRangeMap*)0);
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace mithep {
@@ -4606,7 +4618,7 @@ namespace ROOT {
       return &instance;
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const vector<pair<unsigned int,unsigned int> >*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const vector<pair<unsigned int,unsigned int> >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *vectorlEpairlEunsignedsPintcOunsignedsPintgRsPgR_Dictionary() {
@@ -4669,7 +4681,7 @@ namespace ROOT {
       return &instance;
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const set<pair<unsigned int,unsigned int> >*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const set<pair<unsigned int,unsigned int> >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *setlEpairlEunsignedsPintcOunsignedsPintgRsPgR_Dictionary() {
@@ -4732,7 +4744,7 @@ namespace ROOT {
       return &instance;
    }
    // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_(Init) = GenerateInitInstanceLocal((const map<unsigned int,vector<pair<unsigned int,unsigned int> > >*)0x0); R__UseDummy(_R__UNIQUE_(Init));
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const map<unsigned int,vector<pair<unsigned int,unsigned int> > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 
    // Dictionary for non-ClassDef classes
    static TClass *maplEunsignedsPintcOvectorlEpairlEunsignedsPintcOunsignedsPintgRsPgRsPgR_Dictionary() {
@@ -4785,10 +4797,10 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/external/boost/1.63.0-mlhled2/include",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.08.07/include",
-"/home/ceballos/cms/cmssw/048/CMSSW_9_2_12/src/",
+"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc630/external/boost/1.63.0-fmblme/include",
+"/cvmfs/cms.cern.ch/slc6_amd64_gcc630/lcg/root/6.10.08-elfike/include",
+"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
@@ -4797,7 +4809,7 @@ namespace {
 #pragma clang diagnostic ignored "-Wignored-attributes"
 #pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
 extern int __Cling_Autoloading_Map;
-namespace std{template <class _T1, class _T2> struct __attribute__((annotate("$clingAutoload$bits/stl_pair.h")))  __attribute__((annotate("$clingAutoload$string")))  pair;
+namespace std{template <typename _T1, typename _T2> struct __attribute__((annotate("$clingAutoload$bits/stl_pair.h")))  __attribute__((annotate("$clingAutoload$string")))  pair;
 }
 namespace std{template <typename _Tp = void> struct __attribute__((annotate("$clingAutoload$bits/stl_function.h")))  __attribute__((annotate("$clingAutoload$string")))  less;
 }
@@ -4861,6 +4873,126 @@ namespace mithep{typedef FastArray<TObjString> FArrObjString __attribute__((anno
 #include "MitAna/DataCont/interface/RunLumiSet.h"
 #include "MitAna/DataCont/interface/Types.h"
 #include "TObjString.h"
+#ifndef MITANA_DATACONT_LINKDEF_H
+#define MITANA_DATACONT_LINKDEF_H
+
+#include "MitAna/DataCont/interface/BaseCollection.h"
+#include "MitAna/DataCont/interface/BitMask.h"
+#include "MitAna/DataCont/interface/CacheFlag.h"
+#include "MitAna/DataCont/interface/FastArray.h"
+#include "MitAna/DataCont/interface/FastArrayBasic.h"
+#include "MitAna/DataCont/interface/NamedFastArrayBasic.h"
+#include "MitAna/DataCont/interface/ObjArray.h"
+#include "MitAna/DataCont/interface/ProcIDRef.h"
+#include "MitAna/DataCont/interface/RunLumiRangeMap.h"
+#include "MitAna/DataCont/interface/RunLumiSet.h"
+#include "MitAna/DataCont/interface/Types.h"
+#endif
+
+#include "TObjString.h"
+
+
+// typedef UInt_t unsignedint;
+// typedef UChar_t unsignedchar;
+// typedef UShort_t unsignedshort;
+// typedef ULong64_t unsignedlonglong;
+
+
+#ifdef __CLING__
+#pragma link off all globals;
+#pragma link off all classes;
+#pragma link off all functions;
+#pragma link C++ nestedclass;
+#pragma link C++ nestedtypedef;
+#pragma link C++ namespace mithep;
+
+#pragma link C++ class mithep::BaseCollection+;
+
+#pragma link C++ class mithep::BitMaskT<UChar_t>+;
+#pragma link C++ class mithep::BitMaskT<UShort_t>+;
+#pragma link C++ class mithep::BitMaskT<UInt_t>+;
+#pragma link C++ class mithep::BitMask<6>+;
+#pragma link C++ class mithep::BitMaskT<ULong64_t>+;
+#pragma link C++ class mithep::BitMask<2>+;
+#pragma link C++ class mithep::BitMask<3>+;
+#pragma link C++ class mithep::BitMask<8>+;
+#pragma link C++ class mithep::BitMask<16>+;
+#pragma link C++ class mithep::BitMask<32>+;
+#pragma link C++ class mithep::BitMask<128>+;
+#pragma link C++ typedef mithep::BitMask8;
+#pragma link C++ typedef mithep::BitMask16;
+#pragma link C++ typedef mithep::BitMask24;
+#pragma link C++ typedef mithep::BitMask32;
+#pragma link C++ typedef mithep::BitMask64u;
+#pragma link C++ typedef mithep::BitMask48;
+#pragma link C++ typedef mithep::BitMask64;
+#pragma link C++ typedef mithep::BitMask128;
+#pragma link C++ typedef mithep::BitMask256; 
+#pragma link C++ typedef mithep::BitMask1024; 
+
+
+#pragma link C++ class mithep::CacheFlag-;
+#pragma link C++ class mithep::RefResolver+;
+#pragma link C++ class mithep::ProcIDRef-;
+
+#pragma link C++ class mithep::Collection<mithep::ProcIDRef>+;
+#pragma link C++ class mithep::FastArray<mithep::ProcIDRef>-;
+
+#pragma link C++ class mithep::Collection<TObjString>+;
+#pragma link C++ class mithep::FastArray<TObjString>-;
+#pragma link C++ typedef mithep::FArrObjString;
+
+#pragma link C++ class mithep::FastArrayBasic<Double_t>-;
+#pragma link C++ class mithep::FastArrayBasic<Double32_t,kTRUE>-;
+#pragma link C++ class mithep::FastArrayBasic<Int_t>-;
+#pragma link C++ class mithep::FastArrayBasic<UInt_t>-;
+#pragma link C++ class mithep::FastArrayBasic<Short_t>-;
+#pragma link C++ class mithep::FastArrayBasic<UShort_t>-;
+#pragma link C++ class mithep::FastArrayBasic<Char_t>-;
+#pragma link C++ class mithep::FastArrayBasic<UChar_t>-;
+#pragma link C++ class mithep::FastArrayBasic<Bool_t>-;
+#pragma link C++ typedef mithep::FArrDouble;
+#pragma link C++ typedef mithep::FArrDouble32;
+#pragma link C++ typedef mithep::FArrInt;
+#pragma link C++ typedef mithep::FArrUInt;
+#pragma link C++ typedef mithep::FArrShort;
+#pragma link C++ typedef mithep::FArrUShort;
+#pragma link C++ typedef mithep::FArrChar;
+#pragma link C++ typedef mithep::FArrUChar;
+#pragma link C++ typedef mithep::FArrBool;
+
+#pragma link C++ class mithep::NamedFastArrayBasic<Double_t>-;
+#pragma link C++ class mithep::NamedFastArrayBasic<Double32_t,kTRUE>-;
+#pragma link C++ class mithep::NamedFastArrayBasic<Int_t>-;
+#pragma link C++ class mithep::NamedFastArrayBasic<UInt_t>-;
+#pragma link C++ class mithep::NamedFastArrayBasic<Short_t>-;
+#pragma link C++ class mithep::NamedFastArrayBasic<UShort_t>-;
+#pragma link C++ class mithep::NamedFastArrayBasic<Char_t>-;
+#pragma link C++ class mithep::NamedFastArrayBasic<UChar_t>-;
+#pragma link C++ class mithep::NamedFastArrayBasic<Bool_t>-;
+#pragma link C++ typedef mithep::NFArrDouble;
+#pragma link C++ typedef mithep::NFArrDouble32;
+#pragma link C++ typedef mithep::NFArrInt;
+#pragma link C++ typedef mithep::NFArrUInt;
+#pragma link C++ typedef mithep::NFArrShort;
+#pragma link C++ typedef mithep::NFArrUShort;
+#pragma link C++ typedef mithep::NFArrChar;
+#pragma link C++ typedef mithep::NFArrUChar;
+#pragma link C++ typedef mithep::NFArrBool;
+
+#pragma link C++ class mithep::Collection<TObject>+;
+#pragma link C++ class mithep::ObjArray<TObject>+;
+
+#pragma link C++ class std::pair<UInt_t,UInt_t>+;
+#pragma link C++ class std::set<std::pair<UInt_t,UInt_t> >+;
+
+#pragma link C++ typedef mithep::RunLumiSet::RunLumiPairType;
+#pragma link C++ typedef mithep::RunLumiSet::SetType;
+
+#pragma link C++ class mithep::RunLumiRangeMap+;
+#pragma link C++ class mithep::RunLumiSet+;
+
+#endif
 
 #undef  _BACKWARD_BACKWARD_WARNING_H
 )DICTPAYLOAD";
