@@ -16,6 +16,7 @@
 #include "MitAna/DataCont/interface/FastArrayBasic.h"
 #include "MitAna/DataCont/interface/NamedFastArrayBasic.h"
 #include "MitAna/DataCont/interface/FastArray.h"
+#include "TObjString.h"
 
 namespace mithep
 {
