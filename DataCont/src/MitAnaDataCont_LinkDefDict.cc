@@ -1,6 +1,6 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI050dICMSSW_9_4_6dItmpdIslc6_amd64_gcc630dIMitAnaDataCont_LinkDefDict
+#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI051dICMSSW_10_3_4dItmpdIslc7_amd64_gcc700dIMitAnaDataCont_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
@@ -106,7 +106,7 @@ namespace ROOT {
       pair<unsigned int,unsigned int> *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(pair<unsigned int,unsigned int>));
       static ::ROOT::TGenericClassInfo 
-         instance("pair<unsigned int,unsigned int>", "string", 190,
+         instance("pair<unsigned int,unsigned int>", "string", 198,
                   typeid(pair<unsigned int,unsigned int>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &pairlEunsignedsPintcOunsignedsPintgR_Dictionary, isa_proxy, 4,
                   sizeof(pair<unsigned int,unsigned int>) );
@@ -1965,7 +1965,7 @@ TClass *BaseCollection::Dictionary()
 //______________________________________________________________________________
 TClass *BaseCollection::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BaseCollection*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BaseCollection*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2002,7 +2002,7 @@ template <> TClass *BitMask<3>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMask<3>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<3>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<3>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2039,7 +2039,7 @@ template <> TClass *BitMask<6>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMask<6>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<6>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2076,7 +2076,7 @@ template <> TClass *BitMask<16>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMask<16>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<16>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<16>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2113,7 +2113,7 @@ template <> TClass *BitMask<32>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMask<32>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<32>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<32>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2150,7 +2150,7 @@ template <> TClass *BitMask<128>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMask<128>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<128>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<128>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2187,7 +2187,7 @@ template <> TClass *BitMask<8>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMask<8>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<8>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2224,7 +2224,7 @@ template <> TClass *BitMask<2>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMask<2>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMask<2>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2261,7 +2261,7 @@ template <> TClass *BitMaskT<unsigned char>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMaskT<unsigned char>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned char>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2298,7 +2298,7 @@ template <> TClass *BitMaskT<unsigned short>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMaskT<unsigned short>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned short>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2335,7 +2335,7 @@ template <> TClass *BitMaskT<unsigned int>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMaskT<unsigned int>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<unsigned int>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2372,7 +2372,7 @@ template <> TClass *BitMaskT<ULong64_t>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *BitMaskT<ULong64_t>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::BitMaskT<ULong64_t>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2409,7 +2409,7 @@ template <> TClass *Collection<TObject>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *Collection<TObject>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObject>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2446,7 +2446,7 @@ template <> TClass *Collection<TObjString>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *Collection<TObjString>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObjString>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<TObjString>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2483,7 +2483,7 @@ template <> TClass *Collection<mithep::ProcIDRef>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *Collection<mithep::ProcIDRef>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Collection<mithep::ProcIDRef>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2520,7 +2520,7 @@ template <> TClass *FastArrayBasic<double,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<double,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<double,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<double,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2557,7 +2557,7 @@ template <> TClass *FastArrayBasic<double,true>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<double,true>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<double,true>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<double,true>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2594,7 +2594,7 @@ template <> TClass *FastArrayBasic<int,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<int,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<int,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<int,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2631,7 +2631,7 @@ template <> TClass *FastArrayBasic<unsigned int,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<unsigned int,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned int,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned int,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2668,7 +2668,7 @@ template <> TClass *FastArrayBasic<short,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<short,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<short,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<short,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2705,7 +2705,7 @@ template <> TClass *FastArrayBasic<unsigned short,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<unsigned short,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned short,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned short,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2742,7 +2742,7 @@ template <> TClass *FastArrayBasic<char,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<char,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<char,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<char,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2779,7 +2779,7 @@ template <> TClass *FastArrayBasic<unsigned char,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<unsigned char,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned char,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<unsigned char,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2816,7 +2816,7 @@ template <> TClass *FastArrayBasic<bool,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArrayBasic<bool,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<bool,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArrayBasic<bool,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2853,7 +2853,7 @@ template <> TClass *NamedFastArrayBasic<double,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<double,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<double,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<double,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2890,7 +2890,7 @@ template <> TClass *NamedFastArrayBasic<double,true>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<double,true>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<double,true>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<double,true>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2927,7 +2927,7 @@ template <> TClass *NamedFastArrayBasic<int,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<int,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<int,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<int,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -2964,7 +2964,7 @@ template <> TClass *NamedFastArrayBasic<unsigned int,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<unsigned int,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned int,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned int,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3001,7 +3001,7 @@ template <> TClass *NamedFastArrayBasic<short,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<short,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<short,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<short,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3038,7 +3038,7 @@ template <> TClass *NamedFastArrayBasic<unsigned short,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<unsigned short,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned short,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned short,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3075,7 +3075,7 @@ template <> TClass *NamedFastArrayBasic<char,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<char,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<char,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<char,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3112,7 +3112,7 @@ template <> TClass *NamedFastArrayBasic<unsigned char,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<unsigned char,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned char,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<unsigned char,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3149,7 +3149,7 @@ template <> TClass *NamedFastArrayBasic<bool,false>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *NamedFastArrayBasic<bool,false>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<bool,false>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::NamedFastArrayBasic<bool,false>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3186,7 +3186,7 @@ template <> TClass *FastArray<TObjString>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArray<TObjString>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<TObjString>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3223,7 +3223,7 @@ template <> TClass *FastArray<mithep::ProcIDRef>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *FastArray<mithep::ProcIDRef>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::FastArray<mithep::ProcIDRef>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3260,7 +3260,7 @@ TClass *CacheFlag::Dictionary()
 //______________________________________________________________________________
 TClass *CacheFlag::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::CacheFlag*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3297,7 +3297,7 @@ template <> TClass *ObjArray<TObject>::Dictionary()
 //______________________________________________________________________________
 template <> TClass *ObjArray<TObject>::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::ObjArray<TObject>*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::ObjArray<TObject>*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3334,7 +3334,7 @@ TClass *ProcIDRef::Dictionary()
 //______________________________________________________________________________
 TClass *ProcIDRef::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::ProcIDRef*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3371,7 +3371,7 @@ TClass *RunLumiSet::Dictionary()
 //______________________________________________________________________________
 TClass *RunLumiSet::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiSet*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiSet*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -3408,7 +3408,7 @@ TClass *RunLumiRangeMap::Dictionary()
 //______________________________________________________________________________
 TClass *RunLumiRangeMap::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::RunLumiRangeMap*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -4605,7 +4605,7 @@ namespace ROOT {
       vector<pair<unsigned int,unsigned int> > *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(vector<pair<unsigned int,unsigned int> >));
       static ::ROOT::TGenericClassInfo 
-         instance("vector<pair<unsigned int,unsigned int> >", -2, "vector", 214,
+         instance("vector<pair<unsigned int,unsigned int> >", -2, "vector", 216,
                   typeid(vector<pair<unsigned int,unsigned int> >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &vectorlEpairlEunsignedsPintcOunsignedsPintgRsPgR_Dictionary, isa_proxy, 0,
                   sizeof(vector<pair<unsigned int,unsigned int> >) );
@@ -4668,7 +4668,7 @@ namespace ROOT {
       set<pair<unsigned int,unsigned int> > *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(set<pair<unsigned int,unsigned int> >));
       static ::ROOT::TGenericClassInfo 
-         instance("set<pair<unsigned int,unsigned int> >", -2, "set", 90,
+         instance("set<pair<unsigned int,unsigned int> >", -2, "set", 93,
                   typeid(set<pair<unsigned int,unsigned int> >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &setlEpairlEunsignedsPintcOunsignedsPintgRsPgR_Dictionary, isa_proxy, 4,
                   sizeof(set<pair<unsigned int,unsigned int> >) );
@@ -4731,7 +4731,7 @@ namespace ROOT {
       map<unsigned int,vector<pair<unsigned int,unsigned int> > > *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(map<unsigned int,vector<pair<unsigned int,unsigned int> > >));
       static ::ROOT::TGenericClassInfo 
-         instance("map<unsigned int,vector<pair<unsigned int,unsigned int> > >", -2, "map", 96,
+         instance("map<unsigned int,vector<pair<unsigned int,unsigned int> > >", -2, "map", 99,
                   typeid(map<unsigned int,vector<pair<unsigned int,unsigned int> > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &maplEunsignedsPintcOvectorlEpairlEunsignedsPintcOunsignedsPintgRsPgRsPgR_Dictionary, isa_proxy, 0,
                   sizeof(map<unsigned int,vector<pair<unsigned int,unsigned int> > >) );
@@ -4797,10 +4797,10 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc630/external/boost/1.63.0-fmblme/include",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc630/lcg/root/6.10.08-elfike/include",
-"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src/",
+"/home/ceballos/cms/cmssw/051/CMSSW_10_3_4/src",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.63.0-gnimlf/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.12.07-ogkkac4/include",
+"/home/ceballos/cms/cmssw/051/CMSSW_10_3_4/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(

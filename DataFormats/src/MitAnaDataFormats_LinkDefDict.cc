@@ -1,6 +1,6 @@
 // Do NOT change. Changes will be lost next time file is generated
 
-#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI050dICMSSW_9_4_6dItmpdIslc6_amd64_gcc630dIMitAnaDataFormats_LinkDefDict
+#define R__DICTIONARY_FILENAME dIhomedIceballosdIcmsdIcmsswdI051dICMSSW_10_3_4dItmpdIslc7_amd64_gcc700dIMitAnaDataFormats_LinkDefDict
 
 /*******************************************************************/
 #include <stddef.h>
@@ -315,7 +315,7 @@ TClass *Hist1DRat::Dictionary()
 //______________________________________________________________________________
 TClass *Hist1DRat::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Hist1DRat*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Hist1DRat*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -352,7 +352,7 @@ TClass *TH2DAsymErr::Dictionary()
 //______________________________________________________________________________
 TClass *TH2DAsymErr::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::TH2DAsymErr*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::TH2DAsymErr*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -389,7 +389,7 @@ TClass *TH3DAsymErr::Dictionary()
 //______________________________________________________________________________
 TClass *TH3DAsymErr::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::TH3DAsymErr*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::TH3DAsymErr*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -426,7 +426,7 @@ TClass *Vect3::Dictionary()
 //______________________________________________________________________________
 TClass *Vect3::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Vect3*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Vect3*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -463,7 +463,7 @@ TClass *Vect3C::Dictionary()
 //______________________________________________________________________________
 TClass *Vect3C::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Vect3C*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Vect3C*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -500,7 +500,7 @@ TClass *Vect4M::Dictionary()
 //______________________________________________________________________________
 TClass *Vect4M::Class()
 {
-   if (!fgIsA.load()) { R__LOCKGUARD2(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Vect4M*)0x0)->GetClass(); }
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::mithep::Vect4M*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -748,9 +748,9 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src",
-"/cvmfs/cms.cern.ch/slc6_amd64_gcc630/lcg/root/6.10.08-elfike/include",
-"/home/ceballos/cms/cmssw/050/CMSSW_9_4_6/src/",
+"/home/ceballos/cms/cmssw/051/CMSSW_10_3_4/src",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.12.07-ogkkac4/include",
+"/home/ceballos/cms/cmssw/051/CMSSW_10_3_4/src/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
